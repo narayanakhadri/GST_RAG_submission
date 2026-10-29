@@ -89,6 +89,9 @@ uv run python -m eval.run_gst_ragas --question-set dev_hard        # RAGAS on a 
 
 Notes:
 - Experiments use `LLM_PROVIDER=gemini` (set in `.env.example`); embeddings always use OpenAI.
+- Redis (Upstash) is optional: with `UPSTASH_REDIS_URL`/`TOKEN` unset, the cache, rate limiter and token budget
+  run in-process.
+- On Windows, set `PYTHONUTF8=1` so the scripts can print the result tables (they contain characters like "→").
 - `eval/results/thesis/cache/` holds the cached LLM outputs (T31 grades, query rewrites, HyDE answers, …), so
   reruns give the same numbers without new LLM calls. The embedding cache is not included; the first run
   re-embeds through OpenAI.
