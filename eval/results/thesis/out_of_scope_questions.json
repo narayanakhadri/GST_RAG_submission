@@ -1,0 +1,25 @@
+{
+ "description": "Synthetic out-of-scope questions (written by Claude, 2026-10-20) for the abstention check W1g: Indian tax/legal questions that the GST corpus cannot answer (income tax, customs, company law, labour law, stamp duty, FEMA). Not part of the golden set.",
+ "questions": [
+  "What is the maximum deduction allowed under section 80C of the Income-tax Act for investment in PPF and ELSS?",
+  "How is long-term capital gain on sale of listed equity shares taxed under the Income-tax Act after Budget 2024?",
+  "What is the rate of TDS on salary payments under section 192 of the Income-tax Act?",
+  "Which ITR form should a salaried individual with one house property file for income tax?",
+  "How is the assessable value of imported goods determined under the Customs Valuation Rules, 2007?",
+  "What is the basic customs duty on import of gold bars into India?",
+  "Which companies must spend on corporate social responsibility under section 135 of the Companies Act, 2013?",
+  "What is the minimum number of directors required for a private limited company under the Companies Act?",
+  "What is the employer's contribution rate to the Employees' Provident Fund under the EPF Act?",
+  "When is a gratuity payable to an employee under the Payment of Gratuity Act, 1972?",
+  "What stamp duty is payable on the sale deed of a flat in Maharashtra?",
+  "How much foreign currency can a resident individual remit abroad each year under the Liberalised Remittance Scheme of FEMA?",
+  "What is the penalty for late filing of the income tax return under section 234F?",
+  "How is house rent allowance exempt under section 10(13A) of the Income-tax Act computed?",
+  "What is the time limit for a company to hold its annual general meeting under the Companies Act, 2013?",
+  "Who is required to obtain a Tax Deduction Account Number (TAN) under the Income-tax Act?",
+  "What is the anti-dumping duty procedure followed by the Directorate General of Trade Remedies?",
+  "How is the professional tax levied by the State of Karnataka calculated on monthly salary?",
+  "What are the conditions for claiming a deduction for interest on a home loan under section 24(b) of the Income-tax Act?",
+  "What is the minimum wage fixed for unskilled workers in Delhi under the Minimum Wages Act?"
+ ]
+}

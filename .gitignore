@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# uv
+# .python-version is tracked (pins 3.12)
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+
+# Linting
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Eval results
+eval/results/
+
+# Seed / generated data
+seed/data/
+seed/*.csv
+seed/*.json
+seed/*.pdf
+seed/*.docx
+
+# Docker
+*.override.yml
+
+# Secrets / keys
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Thesis results are small and needed to regenerate the tables/figures; keep them, except caches.
+# (Full RAGAS run files in eval/results/*.json stay ignored: ~5-14 MB each.)
+!eval/results/
+eval/results/*
+!eval/results/thesis/
+# LLM-output caches (small, make reruns free and identical) are kept; embeddings and ColBERT are rebuilt.
+eval/results/thesis/cache/embeddings.jsonl
+
+# Office lock files
+~$*
+eval/results/thesis/models/
+eval/results/thesis/cache/colbert/
+

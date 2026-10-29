@@ -1,0 +1,319 @@
+{
+ "90f2595b13ee2e666d84e8fbb1ba605076a26b12edc8164e0ad37d7db0f386e6": [
+  "igst_act",
+  "rate_notifications"
+ ],
+ "026d178c2a2c7aec7a0ceb519811b363fd6b220caf061d61e192be8a7a5dad86": [
+  "rate_notifications",
+  "cgst_act"
+ ],
+ "a0a27efcba135388007014589a5115902804fca2fc48b57cca45d0f257f61686": [
+  "cgst_act",
+  "circulars"
+ ],
+ "86910423e69f26a6bbc9e0fb68689ba8e6cd968d9be9f440b230688cb9964e06": [
+  "cgst_act",
+  "exemption_notifications",
+  "rate_notifications"
+ ],
+ "9bf5e48ce0bccbc87cfa6483555b42ba135099274b8fdd53f316f41ba9d9b631": [
+  "cgst_act",
+  "reverse_charge_notifications",
+  "circulars"
+ ],
+ "4d6e1da52f7f60ca8f8a4a9b4a9d230a877dc004b98a9af808b523ce0a2a37e4": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "47cb00c16f5fa50aae2e522223410a09db9538f50054bfdf803e6a9cf9d32967": [
+  "cgst_act",
+  "cgst_rules",
+  "reverse_charge_notifications"
+ ],
+ "7ee14f76e677b36c708eb48a08076ea3258fec18da4ddefa0e5f105862ba6b94": [
+  "cgst_act",
+  "cgst_rules",
+  "rate_notifications"
+ ],
+ "43df8b84ed81c5619fe67d606a787e2056ff1ad0563b867f549de267aef8107e": [
+  "reverse_charge_notifications",
+  "cgst_act",
+  "rate_notifications"
+ ],
+ "f0de472c936a6eed5bc65d17e314680a32cb0a8f83b83ef357ce8ba0b743eccb": [
+  "igst_act"
+ ],
+ "087295ff851d46fd2119be77def56dfdc2929ae556edc82eb486d73b14fb5b33": [
+  "igst_act",
+  "cgst_act"
+ ],
+ "bad054099b9674c9d6683f88d4e93128fa62714707c4834615ecb24f47bb5afc": [
+  "exemption_notifications",
+  "circulars",
+  "cgst_act"
+ ],
+ "69594f8f33073a2a21d267c303c733c9b79cbd5a777885eff47684584798d462": [
+  "exemption_notifications",
+  "cgst_act",
+  "circulars"
+ ],
+ "d52289ff1d2d0d867159971e1d3901ad4caf00a5376e12021eb7679415e4a114": [
+  "exemption_notifications",
+  "cgst_act",
+  "rate_notifications"
+ ],
+ "9dc8523e53984dd27b8129c9c1453c95b5dfb83de4d9e549130c29fcb15dd582": [
+  "exemption_notifications",
+  "reverse_charge_notifications",
+  "igst_act"
+ ],
+ "442da126f047b7d14104583270e2328be0230c13d5651512fc1a6600c4607a8e": [
+  "cgst_act"
+ ],
+ "2d0c1bce809f1d1416428c7a961fa82bd6e1784737d143e74c208f1362ba9215": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "583e2af95957bb04745ca78ecf4ec313b63c110f201f0675070e602d150c125b": [
+  "cgst_rules",
+  "cgst_act"
+ ],
+ "612307080104f010ef699f13a2a5d8dfbe02bdce4c40c116417cc29873687f63": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "47f4eb769c298df913d3a9e2175499c6a0d320d1c7954ffeecf2e00e0d020591": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "17c2a496e5f89ad18b0d9e2323f62f2ec1341f9a6527ee7b011605f2f942b14d": [
+  "cgst_act",
+  "cgst_rules",
+  "reverse_charge_notifications"
+ ],
+ "6a49c74481c4bddb3dfd0fa5814af860ef3111ffa2e34b872bd0fafd3f50c55e": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "8ed0433406c7e1764999c3eb5bdf4711887688efccbe8001329aab8baf48bba7": [
+  "cgst_act",
+  "cgst_rules",
+  "circulars"
+ ],
+ "b7bac0c91719ec430afe60c33dc1372dcf3adcc80858bbd55944faaebf80e54b": [
+  "cgst_act",
+  "igst_act",
+  "cgst_rules"
+ ],
+ "a04afc84286ddde79bc8fc57f2907bb1ec501afa37c75c1b04a923278d454b4a": [
+  "cgst_act",
+  "igst_act",
+  "cgst_rules"
+ ],
+ "e7a0de9baa8412f94ddfaf10cbdec1bdab6511a0ed413456bdc192edab831b48": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "51d724eee98e48a68f2c788e135abf8b49dd6eac91b54c8031636d69d7889a40": [
+  "cgst_act",
+  "exemption_notifications",
+  "rate_notifications"
+ ],
+ "9dd0567bef87f323435f8c869eea8ae49acb852f8c30c6317e49ea383d5ad960": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "38583e41f8f94916a5da3b65a9a817e539e4336d00043962c1e9f0197421d416": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "454c599348640d72e00e5428cfae17bf94a2732606688b1ece29ccb60b831b64": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "20b70e4718318f75cdb06977acf4d7c349c1ff11e6281645afe6b08333b2f4ca": [
+  "cgst_act",
+  "igst_act",
+  "rate_notifications"
+ ],
+ "b511bae06b10c35fd2b759d703f687b0d2ce66c68c10723bc301f2eeb59b5e2a": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "957d4469d5f3e94bd8b6a54ce2be27eb1fcbb66da6be311e6de3cac2b338119c": [
+  "cgst_act",
+  "igst_act",
+  "cgst_rules"
+ ],
+ "af4515dde0f4237c999d1dfbd997f58bfc034e016f9f409b8f3e1922813d6a54": [
+  "cgst_act",
+  "igst_act",
+  "cgst_rules"
+ ],
+ "42e6b9cb45d61911170a0cc10e507184d084a37596aea806d95398dbfc1c4560": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "81f849050649762530c5f3191662d41756d34ca446d5602219d1f8f06a02c09a": [
+  "cgst_act",
+  "cgst_rules",
+  "circulars"
+ ],
+ "0e3b2dab3b0709b611a389af0da26b1a2f0c0cd9dec6f96be63722810fe27495": [
+  "cgst_act",
+  "circulars",
+  "exemption_notifications"
+ ],
+ "f19189a7a675b1cdfe34d6639b43b2339ea57667754efc9bce4a4447bd86d1ee": [
+  "cgst_act",
+  "igst_act",
+  "exemption_notifications"
+ ],
+ "08fd1532043a6cd81e57208c0a2ac35f762a5cb06188aebe17e244d94f56bdb9": [
+  "cgst_act",
+  "cgst_rules",
+  "circulars"
+ ],
+ "f26f623c565c279d0c2f9a1558efb863a536e87d5629003bb7c8d069be769703": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "84d4d54136a2771303e47411e67f04ce498dffdf4534898b88a4ebaa896a89c0": [
+  "cgst_act",
+  "cgst_rules",
+  "exemption_notifications"
+ ],
+ "5dd4398380d59e9d1b9b498205ad9c51d8cb91ee800b3c23b535ec771e3897f6": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "fa8310503e41b3684085afc78dc2bbe9d1ea35fd9d6837fa052394b78e0fad8f": [
+  "cgst_act",
+  "cgst_rules",
+  "rate_notifications"
+ ],
+ "c2208e6e1cb174c10a7d2518647a5b0b06e0cb05979fec99f952813791a34188": [
+  "igst_act",
+  "reverse_charge_notifications",
+  "cgst_act"
+ ],
+ "afdef2d440300505ee663ae059c8722935a824067f9bf2f05804c63c5bae76cd": [
+  "igst_act",
+  "cgst_act",
+  "exemption_notifications"
+ ],
+ "3d6097d0df284f1c13ad3c4fc9f311bf6fa0c477da62681b97ffb47f808bea04": [
+  "circulars",
+  "exemption_notifications",
+  "cgst_act"
+ ],
+ "0c7e999f9af4a266f86093e2a7db022acb73a9b9c8c841846ae4966954ad991e": [
+  "exemption_notifications",
+  "reverse_charge_notifications",
+  "cgst_act"
+ ],
+ "40d903e7b2c6214a685863b79326e5f2add0b0c7e18f4003d832180ff4e82d2f": [
+  "exemption_notifications",
+  "cgst_act",
+  "reverse_charge_notifications"
+ ],
+ "a22efbcfde49ab991728900247e4b06752fa81e9f059d3ee78806f37fac5b0a9": [
+  "exemption_notifications",
+  "reverse_charge_notifications",
+  "rate_notifications"
+ ],
+ "87eb8c4bc2e2c4dbf26894823bf2eefd1f218bb76c3dd2692741d3773dfa1184": [
+  "cgst_act"
+ ],
+ "3e3f23505aeed5e8408f6fc04f0db35b444aef0134f12ac3598668c07a77971b": [
+  "cgst_act",
+  "igst_act"
+ ],
+ "05a6e2220c66f4ded558747b854cfd82c235ee9de69673c100c45ab4e293b0bb": [
+  "cgst_act"
+ ],
+ "3ab78fc741bb338351ec5fc5773883ce34c485c73a4393870916fd7a198e549a": [
+  "cgst_act",
+  "reverse_charge_notifications"
+ ],
+ "207f49df4e93f017d516bf733206273df47e8ec721241dc25451619f55d52108": [
+  "cgst_act"
+ ],
+ "be941472d585249b53ce4f639941b702c363dad9dc6c5f725d5ec74453390d30": [
+  "cgst_act",
+  "igst_act",
+  "cgst_rules"
+ ],
+ "d62500d2385556f998f1646af53206bd9480e777607500a5a7303adc470065df": [
+  "cgst_act",
+  "circulars"
+ ],
+ "f33aaece150de08317b5769cb8ecc98a9010847afec8af6e570f99fd90589096": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "e752192f2c47b7e0b3fd2478bd9c6c49f2390a54968784b1a449ac4849e8cbab": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "465460b797515b0e278a80d7531b48c00e2845037a84846f69ef2dcf82bf496b": [
+  "cgst_rules",
+  "cgst_act"
+ ],
+ "b3844d4752d0b17ad5f2782e1c5b2ac41095cb8941702ce2339516f714588dc0": [
+  "cgst_rules",
+  "cgst_act",
+  "igst_act"
+ ],
+ "6a0ab96dc9c6ec7293824cc629dc3943c62edad7b67de6d9756433c156aee7b3": [
+  "cgst_act",
+  "cgst_rules",
+  "reverse_charge_notifications"
+ ],
+ "a6ccc98b53b700c6309601b9dcf8fc05d488985cb071705d7960b6bf2bcfc207": [
+  "cgst_act",
+  "cgst_rules",
+  "igst_act"
+ ],
+ "6deb0a2d934402e3ad5aa6367491651b94a6fbd3dc68b092aa0e326ab8e12fb2": [
+  "cgst_act",
+  "cgst_rules",
+  "exemption_notifications"
+ ],
+ "0c816ee966de581114413ae3d97cc4faa27ec25c8c6e2531ee970624696ea236": [
+  "cgst_act",
+  "igst_act",
+  "exemption_notifications"
+ ],
+ "052834698703075aade2189f91ae3a2a0897c22ca14bc4011dcf3509dc2bb843": [
+  "cgst_act",
+  "cgst_rules"
+ ],
+ "d227ba0ec016bc436bb83eef1650c56233d1d65be5a95cad06de6dcdea0a2b19": [
+  "cgst_rules",
+  "cgst_act"
+ ],
+ "a2a7f88e269873a79e00d7c4085c51c430c5d681ec66bb5456edd716b5beb382": [
+  "cgst_rules",
+  "cgst_act"
+ ],
+ "40b2f84078f4c02aee3f26990fae6621685ca908248cb4bbee2f2a69b9c2c418": [
+  "cgst_rules",
+  "cgst_act",
+  "igst_act"
+ ],
+ "fe5ef84d6ab92064df38703f9a6e2784ecbf70b59b41b5415fb76b5612c0b441": [
+  "cgst_rules",
+  "cgst_act",
+  "circulars"
+ ],
+ "c07be61026ff0e663e6459c2aaa310b4e464af04197c1f8dd2211ab2d8509ef3": [
+  "cgst_act",
+  "cgst_rules",
+  "circulars"
+ ],
+ "2d0573ef3dd47cbaf22806c274dccbff86926760514aeed4147d2733a55e29a7": [
+  "cgst_rules",
+  "cgst_act"
+ ]
+}

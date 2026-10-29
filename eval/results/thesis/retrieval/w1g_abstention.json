@@ -1,0 +1,684 @@
+{
+ "n_answerable": 146,
+ "n_out_of_scope": 20,
+ "auc": 0.924,
+ "answerable_score_range": [
+  0.336,
+  0.715
+ ],
+ "out_of_scope_score_range": [
+  0.287,
+  0.595
+ ],
+ "best_threshold": 0.448,
+ "answerable_wrongly_refused": 1,
+ "out_of_scope_wrongly_answered": 8,
+ "out_of_scope_scores": [
+  {
+   "question": "What is the maximum deduction allowed under section 80C of the Income-tax Act for investment in PPF and ELSS?",
+   "score": 0.335
+  },
+  {
+   "question": "How is long-term capital gain on sale of listed equity shares taxed under the Income-tax Act after Budget 2024?",
+   "score": 0.442
+  },
+  {
+   "question": "What is the rate of TDS on salary payments under section 192 of the Income-tax Act?",
+   "score": 0.516
+  },
+  {
+   "question": "Which ITR form should a salaried individual with one house property file for income tax?",
+   "score": 0.351
+  },
+  {
+   "question": "How is the assessable value of imported goods determined under the Customs Valuation Rules, 2007?",
+   "score": 0.52
+  },
+  {
+   "question": "What is the basic customs duty on import of gold bars into India?",
+   "score": 0.478
+  },
+  {
+   "question": "Which companies must spend on corporate social responsibility under section 135 of the Companies Act, 2013?",
+   "score": 0.481
+  },
+  {
+   "question": "What is the minimum number of directors required for a private limited company under the Companies Act?",
+   "score": 0.432
+  },
+  {
+   "question": "What is the employer's contribution rate to the Employees' Provident Fund under the EPF Act?",
+   "score": 0.501
+  },
+  {
+   "question": "When is a gratuity payable to an employee under the Payment of Gratuity Act, 1972?",
+   "score": 0.405
+  },
+  {
+   "question": "What stamp duty is payable on the sale deed of a flat in Maharashtra?",
+   "score": 0.436
+  },
+  {
+   "question": "How much foreign currency can a resident individual remit abroad each year under the Liberalised Remittance Scheme of FEMA?",
+   "score": 0.35
+  },
+  {
+   "question": "What is the penalty for late filing of the income tax return under section 234F?",
+   "score": 0.595
+  },
+  {
+   "question": "How is house rent allowance exempt under section 10(13A) of the Income-tax Act computed?",
+   "score": 0.474
+  },
+  {
+   "question": "What is the time limit for a company to hold its annual general meeting under the Companies Act, 2013?",
+   "score": 0.415
+  },
+  {
+   "question": "Who is required to obtain a Tax Deduction Account Number (TAN) under the Income-tax Act?",
+   "score": 0.439
+  },
+  {
+   "question": "What is the anti-dumping duty procedure followed by the Directorate General of Trade Remedies?",
+   "score": 0.493
+  },
+  {
+   "question": "How is the professional tax levied by the State of Karnataka calculated on monthly salary?",
+   "score": 0.345
+  },
+  {
+   "question": "What are the conditions for claiming a deduction for interest on a home loan under section 24(b) of the Income-tax Act?",
+   "score": 0.382
+  },
+  {
+   "question": "What is the minimum wage fixed for unskilled workers in Delhi under the Minimum Wages Act?",
+   "score": 0.287
+  }
+ ],
+ "answerable_scores": [
+  {
+   "id": "87619bos-aps2102-p5u1_q001",
+   "score": 0.654
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q002",
+   "score": 0.611
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q003",
+   "score": 0.597
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q004",
+   "score": 0.645
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q005",
+   "score": 0.556
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q006",
+   "score": 0.552
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q007",
+   "score": 0.52
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q008",
+   "score": 0.654
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q009",
+   "score": 0.495
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q010",
+   "score": 0.544
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q011",
+   "score": 0.696
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q012",
+   "score": 0.665
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q013",
+   "score": 0.55
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q014",
+   "score": 0.603
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q001",
+   "score": 0.504
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q002",
+   "score": 0.5
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q003",
+   "score": 0.573
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q004",
+   "score": 0.509
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q005",
+   "score": 0.618
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q006",
+   "score": 0.59
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q007",
+   "score": 0.599
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q008",
+   "score": 0.544
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q009",
+   "score": 0.596
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q010",
+   "score": 0.627
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q011",
+   "score": 0.585
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q012",
+   "score": 0.616
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q013",
+   "score": 0.564
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q014",
+   "score": 0.58
+  },
+  {
+   "id": "87621bos-aps2102-p5u3_q001",
+   "score": 0.503
+  },
+  {
+   "id": "87621bos-aps2102-p5u3_q002",
+   "score": 0.494
+  },
+  {
+   "id": "87621bos-aps2102-p5u3_q003",
+   "score": 0.503
+  },
+  {
+   "id": "87621bos-aps2102-p5u3_q004",
+   "score": 0.587
+  },
+  {
+   "id": "87621bos-aps2102-p5u3_q005",
+   "score": 0.533
+  },
+  {
+   "id": "87621bos-aps2102-p5u3_q006",
+   "score": 0.535
+  },
+  {
+   "id": "87621bos-aps2102-p5u3_q007",
+   "score": 0.53
+  },
+  {
+   "id": "87621bos-aps2102-p5u3_q008",
+   "score": 0.582
+  },
+  {
+   "id": "87621bos-aps2102-p5u3_q009",
+   "score": 0.569
+  },
+  {
+   "id": "87621bos-aps2102-p5u3_q010",
+   "score": 0.548
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q001",
+   "score": 0.645
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q002",
+   "score": 0.711
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q003",
+   "score": 0.526
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q004",
+   "score": 0.715
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q005",
+   "score": 0.642
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q006",
+   "score": 0.571
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q007",
+   "score": 0.652
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q008",
+   "score": 0.646
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q009",
+   "score": 0.612
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q010",
+   "score": 0.543
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q011",
+   "score": 0.588
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q012",
+   "score": 0.646
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q013",
+   "score": 0.586
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q014",
+   "score": 0.654
+  },
+  {
+   "id": "87623bos-aps2102-p5u5_q001",
+   "score": 0.532
+  },
+  {
+   "id": "87623bos-aps2102-p5u5_q002",
+   "score": 0.499
+  },
+  {
+   "id": "87623bos-aps2102-p5u5_q003",
+   "score": 0.472
+  },
+  {
+   "id": "87623bos-aps2102-p5u5_q004",
+   "score": 0.568
+  },
+  {
+   "id": "87623bos-aps2102-p5u5_q005",
+   "score": 0.556
+  },
+  {
+   "id": "87623bos-aps2102-p5u5_q006",
+   "score": 0.533
+  },
+  {
+   "id": "87623bos-aps2102-p5u5_q007",
+   "score": 0.526
+  },
+  {
+   "id": "87623bos-aps2102-p5u5_q008",
+   "score": 0.535
+  },
+  {
+   "id": "87623bos-aps2102-p5u5_q009",
+   "score": 0.583
+  },
+  {
+   "id": "87623bos-aps2102-p5u5_q010",
+   "score": 0.64
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q001",
+   "score": 0.58
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q002",
+   "score": 0.633
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q003",
+   "score": 0.618
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q004",
+   "score": 0.545
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q005",
+   "score": 0.468
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q006",
+   "score": 0.489
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q007",
+   "score": 0.562
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q008",
+   "score": 0.512
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q009",
+   "score": 0.547
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q010",
+   "score": 0.638
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q011",
+   "score": 0.59
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q012",
+   "score": 0.542
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q013",
+   "score": 0.465
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q014",
+   "score": 0.54
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q015",
+   "score": 0.51
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q016",
+   "score": 0.562
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q001",
+   "score": 0.448
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q002",
+   "score": 0.621
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q003",
+   "score": 0.501
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q004",
+   "score": 0.529
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q005",
+   "score": 0.584
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q006",
+   "score": 0.619
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q007",
+   "score": 0.563
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q008",
+   "score": 0.525
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q009",
+   "score": 0.49
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q010",
+   "score": 0.553
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q011",
+   "score": 0.502
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q012",
+   "score": 0.613
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q013",
+   "score": 0.486
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q014",
+   "score": 0.531
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q015",
+   "score": 0.568
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q016",
+   "score": 0.546
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q017",
+   "score": 0.552
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q018",
+   "score": 0.552
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q019",
+   "score": 0.524
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q020",
+   "score": 0.566
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q021",
+   "score": 0.542
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q022",
+   "score": 0.54
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q023",
+   "score": 0.499
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q024",
+   "score": 0.501
+  },
+  {
+   "id": "88887bos-aps2102-m2-p8_q001",
+   "score": 0.641
+  },
+  {
+   "id": "88887bos-aps2102-m2-p8_q002",
+   "score": 0.582
+  },
+  {
+   "id": "88887bos-aps2102-m2-p8_q003",
+   "score": 0.562
+  },
+  {
+   "id": "88887bos-aps2102-m2-p8_q004",
+   "score": 0.549
+  },
+  {
+   "id": "88887bos-aps2102-m2-p8_q005",
+   "score": 0.571
+  },
+  {
+   "id": "88887bos-aps2102-m2-p8_q006",
+   "score": 0.53
+  },
+  {
+   "id": "88888bos-aps2102-m2-p9_q001",
+   "score": 0.537
+  },
+  {
+   "id": "88888bos-aps2102-m2-p9_q002",
+   "score": 0.511
+  },
+  {
+   "id": "88888bos-aps2102-m2-p9_q003",
+   "score": 0.582
+  },
+  {
+   "id": "88888bos-aps2102-m2-p9_q004",
+   "score": 0.534
+  },
+  {
+   "id": "88889bos-aps2102-m2-p10_q001",
+   "score": 0.51
+  },
+  {
+   "id": "88889bos-aps2102-m2-p10_q002",
+   "score": 0.646
+  },
+  {
+   "id": "88889bos-aps2102-m2-p10_q003",
+   "score": 0.603
+  },
+  {
+   "id": "88889bos-aps2102-m2-p10_q004",
+   "score": 0.591
+  },
+  {
+   "id": "88889bos-aps2102-m2-p10_q005",
+   "score": 0.6
+  },
+  {
+   "id": "88889bos-aps2102-m2-p10_q006",
+   "score": 0.559
+  },
+  {
+   "id": "88889bos-aps2102-m2-p10_q007",
+   "score": 0.487
+  },
+  {
+   "id": "88890bos-aps2102-m2-p11_q001",
+   "score": 0.569
+  },
+  {
+   "id": "88890bos-aps2102-m2-p11_q002",
+   "score": 0.579
+  },
+  {
+   "id": "88890bos-aps2102-m2-p11_q003",
+   "score": 0.612
+  },
+  {
+   "id": "88890bos-aps2102-m2-p11_q004",
+   "score": 0.561
+  },
+  {
+   "id": "88890bos-aps2102-m2-p11_q005",
+   "score": 0.644
+  },
+  {
+   "id": "88890bos-aps2102-m2-p11_q006",
+   "score": 0.505
+  },
+  {
+   "id": "88890bos-aps2102-m2-p11_q007",
+   "score": 0.596
+  },
+  {
+   "id": "88890bos-aps2102-m2-p11_q008",
+   "score": 0.601
+  },
+  {
+   "id": "88890bos-aps2102-m2-p11_q009",
+   "score": 0.534
+  },
+  {
+   "id": "88891bos-aps2102-m2-p12_q001",
+   "score": 0.548
+  },
+  {
+   "id": "88891bos-aps2102-m2-p12_q002",
+   "score": 0.59
+  },
+  {
+   "id": "88891bos-aps2102-m2-p12_q003",
+   "score": 0.585
+  },
+  {
+   "id": "88891bos-aps2102-m2-p12_q004",
+   "score": 0.605
+  },
+  {
+   "id": "88891bos-aps2102-m2-p12_q005",
+   "score": 0.551
+  },
+  {
+   "id": "88891bos-aps2102-m2-p12_q006",
+   "score": 0.509
+  },
+  {
+   "id": "88891bos-aps2102-m2-p12_q007",
+   "score": 0.477
+  },
+  {
+   "id": "88891bos-aps2102-m2-p12_q008",
+   "score": 0.336
+  },
+  {
+   "id": "88892bos-aps2102-m2-p13_q001",
+   "score": 0.582
+  },
+  {
+   "id": "88892bos-aps2102-m2-p13_q002",
+   "score": 0.546
+  },
+  {
+   "id": "88892bos-aps2102-m2-p13_q003",
+   "score": 0.604
+  },
+  {
+   "id": "88892bos-aps2102-m2-p13_q004",
+   "score": 0.482
+  },
+  {
+   "id": "88892bos-aps2102-m2-p13_q005",
+   "score": 0.539
+  },
+  {
+   "id": "88892bos-aps2102-m2-p13_q006",
+   "score": 0.561
+  },
+  {
+   "id": "88892bos-aps2102-m2-p13_q007",
+   "score": 0.553
+  },
+  {
+   "id": "88892bos-aps2102-m2-p13_q008",
+   "score": 0.611
+  },
+  {
+   "id": "88892bos-aps2102-m2-p13_q009",
+   "score": 0.511
+  },
+  {
+   "id": "88892bos-aps2102-m2-p13_q010",
+   "score": 0.578
+  }
+ ]
+}

@@ -1,0 +1,1551 @@
+{
+ "name": "t19_colbert_small_fuse_dev_hard",
+ "question_set": "dev_hard",
+ "golden": "seed/docs/gst/golden_set_with_gold_sources.textfix.jsonl",
+ "seconds": 142.1,
+ "settings": {
+  "collection": "gst_thesis_enriched_large",
+  "embedding_model": "text-embedding-3-large"
+ },
+ "rows": [
+  {
+   "id": "87619bos-aps2102-p5u1_q001",
+   "retrieved_sources": [
+    "Circular No. 11/11/2017-GST, Paragraph 4",
+    "Circular No. 11/11/2017-GST, Paragraph 1",
+    "Circular No. 11/11/2017-GST, Paragraph 2",
+    "The Central Goods and Services Tax Act, 2017, Section 2",
+    "The Central Goods and Services Tax Act, 2017, Section 7",
+    "The Integrated Goods and Services Tax Act, 2017, Section 7",
+    "The Central Goods and Services Tax Act, 2017, Schedule II",
+    "The Integrated Goods and Services Tax Act, 2017, Section 8"
+   ],
+   "retrieved_ids": [
+    "circular_11_11_2017_gst.paragraph.4",
+    "circular_11_11_2017_gst.paragraph.1",
+    "circular_11_11_2017_gst.paragraph.2",
+    "cgst_act_2017.section.2",
+    "cgst_act_2017.section.7",
+    "igst_act_2017.section.7",
+    "cgst_act_2017.schedule.2",
+    "igst_act_2017.section.8"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.0,
+     "all_required_hit": 0.0,
+     "any_required_hit": 0.0,
+     "required_mrr": 0.0,
+     "supporting_recall": 1.0
+    },
+    "corrected": {
+     "required_recall": 0.6666666666666666,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 1.0
+    }
+   }
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q006",
+   "retrieved_sources": [
+    "Circular No. 178/10/2022-GST, Paragraph 3",
+    "Circular No. 178/10/2022-GST, Paragraph 7",
+    "Circular No. 178/10/2022-GST, Paragraph 6",
+    "The Central Goods and Services Tax Act, 2017, Schedule III",
+    "The Central Goods and Services Tax Act, 2017, Schedule I",
+    "The Central Goods and Services Tax Act, 2017, Schedule II",
+    "The Central Goods and Services Tax Act, 2017, Section 7",
+    "Circular No. 44/18/2018-CGST, Paragraph 3"
+   ],
+   "retrieved_ids": [
+    "circular_178_10_2022_gst.paragraph.3",
+    "circular_178_10_2022_gst.paragraph.7",
+    "circular_178_10_2022_gst.paragraph.6",
+    "cgst_act_2017.schedule.3",
+    "cgst_act_2017.schedule.1",
+    "cgst_act_2017.schedule.2",
+    "cgst_act_2017.section.7",
+    "circular_44_18_2018_cgst.paragraph.3"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.14285714285714285,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": null
+    }
+   }
+  },
+  {
+   "id": "87619bos-aps2102-p5u1_q011",
+   "retrieved_sources": [
+    "Circular No. 44/18/2018-CGST, Paragraph 5",
+    "Circular No. 44/18/2018-CGST, Paragraph 1",
+    "Circular No. 44/18/2018-CGST, Paragraph 2",
+    "The Integrated Goods and Services Tax Act, 2017, Section 12",
+    "The Integrated Goods and Services Tax Rules, 2017, Rule 8",
+    "The Integrated Goods and Services Tax Rules, 2017, Rule 4",
+    "Notification No. 9/2017-Integrated Tax (Rate), Entry 43A",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 41A"
+   ],
+   "retrieved_ids": [
+    "circular_44_18_2018_cgst.paragraph.5",
+    "circular_44_18_2018_cgst.paragraph.1",
+    "circular_44_18_2018_cgst.paragraph.2",
+    "igst_act_2017.section.12",
+    "igst_rules_2017.rule.8",
+    "igst_rules_2017.rule.4",
+    "notification_9_2017_it_rate.entry.43a",
+    "notification_12_2017_ct_rate.entry.41a"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.0,
+     "all_required_hit": 0.0,
+     "any_required_hit": 0.0,
+     "required_mrr": 0.0,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.2857142857142857,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": null
+    }
+   }
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q002",
+   "retrieved_sources": [
+    "Circular No. 140/10/2020-GST, Paragraph 3",
+    "Circular No. 140/10/2020-GST, Paragraph 1",
+    "The Central Goods and Services Tax Act, 2017, Schedule III",
+    "Notification No. 13/2017-Central Tax (Rate), Entry 6",
+    "The Central Goods and Services Tax Act, 2017, Section 90",
+    "The Central Goods and Services Tax Act, 2017, Section 7",
+    "Notification No. 13/2017-Central Tax (Rate), Entry 3",
+    "Notification No. 10/2017-Integrated Tax (Rate), Entry 7"
+   ],
+   "retrieved_ids": [
+    "circular_140_10_2020_gst.paragraph.3",
+    "circular_140_10_2020_gst.paragraph.1",
+    "cgst_act_2017.schedule.3",
+    "notification_13_2017_ct_rate.entry.6",
+    "cgst_act_2017.section.90",
+    "cgst_act_2017.section.7",
+    "notification_13_2017_ct_rate.entry.3",
+    "notification_10_2017_it_rate.entry.7"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.0,
+     "all_required_hit": 0.0,
+     "any_required_hit": 0.0,
+     "required_mrr": 0.0,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.5714285714285714,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": null
+    }
+   }
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q005",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 10",
+    "Notification No. 14/2019-Central Tax, Paragraph 1",
+    "The Central Goods and Services Tax Rules, 2017, Rule 7",
+    "The Central Goods and Services Tax Rules, 2017, Rule 5",
+    "The Central Goods and Services Tax Act, 2017, Section 22",
+    "Notification No. 9/2017-Integrated Tax (Rate), Entry 7",
+    "The Central Goods and Services Tax Rules, 2017, Rule 62",
+    "The Central Goods and Services Tax Rules, 2017, Rule 6"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.10",
+    "notification_14_2019_ct.paragraph.1",
+    "cgst_rules_2017.rule.7",
+    "cgst_rules_2017.rule.5",
+    "cgst_act_2017.section.22",
+    "notification_9_2017_it_rate.entry.7",
+    "cgst_rules_2017.rule.62",
+    "cgst_rules_2017.rule.6"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.3333333333333333,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q006",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 10",
+    "Notification No. 14/2019-Central Tax, Paragraph 1",
+    "The Central Goods and Services Tax Act, 2017, Section 22",
+    "The Central Goods and Services Tax Rules, 2017, Rule 7",
+    "Notification No. 10/2019-Central Tax, Paragraph 1",
+    "Notification No. 66/2017-Central Tax, Paragraph 1",
+    "The Central Goods and Services Tax Rules, 2017, Rule 5",
+    "The Central Goods and Services Tax Rules, 2017, Rule 6"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.10",
+    "notification_14_2019_ct.paragraph.1",
+    "cgst_act_2017.section.22",
+    "cgst_rules_2017.rule.7",
+    "notification_10_2019_ct.paragraph.1",
+    "notification_66_2017_ct.paragraph.1",
+    "cgst_rules_2017.rule.5",
+    "cgst_rules_2017.rule.6"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.6666666666666666,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    },
+    "corrected": {
+     "required_recall": 0.42857142857142855,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q010",
+   "retrieved_sources": [
+    "Notification No. 14/2019-Central Tax, Paragraph 1",
+    "The Central Goods and Services Tax Rules, 2017, Rule 7",
+    "The Central Goods and Services Tax Act, 2017, Section 10",
+    "Notification No. 2/2019-Central Tax (Rate), Paragraph 1",
+    "The Central Goods and Services Tax Rules, 2017, Rule 6",
+    "The Central Goods and Services Tax Rules, 2017, Rule 62",
+    "The Central Goods and Services Tax Rules, 2017, Rule 5",
+    "Notification No. 10/2019-Central Tax, Paragraph 1"
+   ],
+   "retrieved_ids": [
+    "notification_14_2019_ct.paragraph.1",
+    "cgst_rules_2017.rule.7",
+    "cgst_act_2017.section.10",
+    "notification_2_2019_ct_rate.paragraph.1",
+    "cgst_rules_2017.rule.6",
+    "cgst_rules_2017.rule.62",
+    "cgst_rules_2017.rule.5",
+    "notification_10_2019_ct.paragraph.1"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.3333333333333333,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.3333333333333333,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.3333333333333333,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "87620bos-aps2102-p5u2_q011",
+   "retrieved_sources": [
+    "Notification No. 13/2017-Central Tax (Rate), Entry 14",
+    "Notification No. 13/2017-Central Tax (Rate), Entry 1",
+    "Notification No. 10/2017-Integrated Tax (Rate), Entry 16",
+    "The Central Goods and Services Tax Act, 2017, Section 9",
+    "The Central Goods and Services Tax Rules, 2017, Rule 140",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 22",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 21A",
+    "Notification No. 13/2017-Central Tax (Rate), Paragraph 1(a-h)"
+   ],
+   "retrieved_ids": [
+    "notification_13_2017_ct_rate.entry.14",
+    "notification_13_2017_ct_rate.entry.1",
+    "notification_10_2017_it_rate.entry.16",
+    "cgst_act_2017.section.9",
+    "cgst_rules_2017.rule.140",
+    "notification_12_2017_ct_rate.entry.22",
+    "notification_12_2017_ct_rate.entry.21a",
+    "notification_13_2017_ct_rate.paragraph.1(a-h)"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.25,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.75,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": null
+    }
+   }
+  },
+  {
+   "id": "87621bos-aps2102-p5u3_q002",
+   "retrieved_sources": [
+    "The Integrated Goods and Services Tax Act, 2017, Section 12",
+    "The Integrated Goods and Services Tax Act, 2017, Section 13",
+    "The Integrated Goods and Services Tax Rules, 2017, Rule 9",
+    "The Integrated Goods and Services Tax Act, 2017, Section 10",
+    "The Integrated Goods and Services Tax Rules, 2017, Rule 5",
+    "The Integrated Goods and Services Tax Act, 2017, Section 7",
+    "Circular No. 103/22/2019-GST, Paragraph 2",
+    "The Integrated Goods and Services Tax Act, 2017, Section 11"
+   ],
+   "retrieved_ids": [
+    "igst_act_2017.section.12",
+    "igst_act_2017.section.13",
+    "igst_rules_2017.rule.9",
+    "igst_act_2017.section.10",
+    "igst_rules_2017.rule.5",
+    "igst_act_2017.section.7",
+    "circular_103_22_2019_gst.paragraph.2",
+    "igst_act_2017.section.11"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "none",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": null,
+     "all_required_hit": null,
+     "any_required_hit": null,
+     "required_mrr": null,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.3333333333333333,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "87621bos-aps2102-p5u3_q006",
+   "retrieved_sources": [
+    "Notification No. 12/2017-Central Tax (Rate), Entry 39A",
+    "Notification No. 9/2017-Integrated Tax (Rate), Entry 40A",
+    "The Central Goods and Services Tax Act, 2017, Section 147",
+    "The Integrated Goods and Services Tax Act, 2017, Section 2",
+    "The Central Goods and Services Tax Rules, 2017, Rule 96",
+    "Circular No. 103/22/2019-GST, Paragraph 2",
+    "The Integrated Goods and Services Tax Act, 2017, Section 7",
+    "The Integrated Goods and Services Tax Act, 2017, Section 13"
+   ],
+   "retrieved_ids": [
+    "notification_12_2017_ct_rate.entry.39a",
+    "notification_9_2017_it_rate.entry.40a",
+    "cgst_act_2017.section.147",
+    "igst_act_2017.section.2",
+    "cgst_rules_2017.rule.96",
+    "circular_103_22_2019_gst.paragraph.2",
+    "igst_act_2017.section.7",
+    "igst_act_2017.section.13"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "none",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": null,
+     "all_required_hit": null,
+     "any_required_hit": null,
+     "required_mrr": null,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.42857142857142855,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.25,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q003",
+   "retrieved_sources": [
+    "Circular No. 32/06/2018-GST, Entry 5",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 74",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 47A",
+    "Notification No. 9/2017-Integrated Tax (Rate), Entry 49A",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 75",
+    "Notification No. 9/2017-Integrated Tax (Rate), Entry 77",
+    "Notification No. 12/2017-Central Tax (Rate), Paragraph 2(j-s)",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 14"
+   ],
+   "retrieved_ids": [
+    "circular_32_06_2018_gst.entry.5",
+    "notification_12_2017_ct_rate.entry.74",
+    "notification_12_2017_ct_rate.entry.47a",
+    "notification_9_2017_it_rate.entry.49a",
+    "notification_12_2017_ct_rate.entry.75",
+    "notification_9_2017_it_rate.entry.77",
+    "notification_12_2017_ct_rate.paragraph.2(j-s)",
+    "notification_12_2017_ct_rate.entry.14"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "none",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": null,
+     "all_required_hit": null,
+     "any_required_hit": null,
+     "required_mrr": null,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.4,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q008",
+   "retrieved_sources": [
+    "Notification No. 12/2017-Central Tax (Rate), Entry 66",
+    "Notification No. 9/2017-Integrated Tax (Rate), Entry 69",
+    "Notification No. 9/2017-Integrated Tax (Rate), Entry 10",
+    "The Central Goods and Services Tax Rules, 2017, Rule 64",
+    "The Integrated Goods and Services Tax Act, 2017, Section 13",
+    "The Integrated Goods and Services Tax Act, 2017, Section 14A",
+    "The Integrated Goods and Services Tax Act, 2017, Section 14",
+    "Circular No. 82/01/2019-GST, Paragraph 1"
+   ],
+   "retrieved_ids": [
+    "notification_12_2017_ct_rate.entry.66",
+    "notification_9_2017_it_rate.entry.69",
+    "notification_9_2017_it_rate.entry.10",
+    "cgst_rules_2017.rule.64",
+    "igst_act_2017.section.13",
+    "igst_act_2017.section.14a",
+    "igst_act_2017.section.14",
+    "circular_82_01_2019_gst.paragraph.1"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "none",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": null,
+     "all_required_hit": null,
+     "any_required_hit": null,
+     "required_mrr": null,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.5,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": null
+    }
+   }
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q009",
+   "retrieved_sources": [
+    "Notification No. 9/2017-Integrated Tax (Rate), Entry 14",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 13",
+    "Circular No. 32/06/2018-GST, Entry 1",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 1",
+    "Notification No. 9/2017-Integrated Tax (Rate), Entry 1",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 77",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 14",
+    "Notification No. 10/2017-Integrated Tax (Rate), Entry 6A"
+   ],
+   "retrieved_ids": [
+    "notification_9_2017_it_rate.entry.14",
+    "notification_12_2017_ct_rate.entry.13",
+    "circular_32_06_2018_gst.entry.1",
+    "notification_12_2017_ct_rate.entry.1",
+    "notification_9_2017_it_rate.entry.1",
+    "notification_12_2017_ct_rate.entry.77",
+    "notification_12_2017_ct_rate.entry.14",
+    "notification_10_2017_it_rate.entry.6a"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "none",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": null,
+     "all_required_hit": null,
+     "any_required_hit": null,
+     "required_mrr": null,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.5,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.5,
+     "supporting_recall": null
+    }
+   }
+  },
+  {
+   "id": "87622bos-aps2102-p5u4_q010",
+   "retrieved_sources": [
+    "Notification No. 13/2017-Central Tax (Rate), Entry 1",
+    "Notification No. 10/2017-Integrated Tax (Rate), Entry 2",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 77",
+    "The Integrated Goods and Services Tax Act, 2017, Section 6",
+    "Notification No. 12/2017-Central Tax (Rate), Paragraph 1",
+    "Notification No. 9/2017-Integrated Tax (Rate), Paragraph 1",
+    "Notification No. 9/2017-Integrated Tax (Rate), Entry 1",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 1"
+   ],
+   "retrieved_ids": [
+    "notification_13_2017_ct_rate.entry.1",
+    "notification_10_2017_it_rate.entry.2",
+    "notification_12_2017_ct_rate.entry.77",
+    "igst_act_2017.section.6",
+    "notification_12_2017_ct_rate.paragraph.1",
+    "notification_9_2017_it_rate.paragraph.1",
+    "notification_9_2017_it_rate.entry.1",
+    "notification_12_2017_ct_rate.entry.1"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "none",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": null,
+     "all_required_hit": null,
+     "any_required_hit": null,
+     "required_mrr": null,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.25,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": null
+    }
+   }
+  },
+  {
+   "id": "87623bos-aps2102-p5u5_q001",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 12",
+    "The Central Goods and Services Tax Act, 2017, Section 13",
+    "The Central Goods and Services Tax Act, 2017, Section 31",
+    "The Central Goods and Services Tax Rules, 2017, Rule 46",
+    "The Central Goods and Services Tax Rules, 2017, Rule 47A",
+    "The Central Goods and Services Tax Rules, 2017, Rule 47",
+    "The Central Goods and Services Tax Act, 2017, Section 14",
+    "The Central Goods and Services Tax Rules, 2017, Rule 52"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.12",
+    "cgst_act_2017.section.13",
+    "cgst_act_2017.section.31",
+    "cgst_rules_2017.rule.46",
+    "cgst_rules_2017.rule.47a",
+    "cgst_rules_2017.rule.47",
+    "cgst_act_2017.section.14",
+    "cgst_rules_2017.rule.52"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 1.0
+    },
+    "corrected": {
+     "required_recall": 0.3333333333333333,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.5
+    }
+   }
+  },
+  {
+   "id": "88087bos-aps2102-ch6_q010",
+   "retrieved_sources": [
+    "Circular No. 92/11/2019-GST, Paragraph 2C",
+    "Circular No. 92/11/2019-GST, Paragraph 2D",
+    "The Central Goods and Services Tax Rules, 2017, Rule 32",
+    "The Central Goods and Services Tax Rules, 2017, Rule 36",
+    "The Central Goods and Services Tax Rules, 2017, Rule 39",
+    "The Central Goods and Services Tax Act, 2017, Section 15",
+    "The Central Goods and Services Tax Act, 2017, Section 12",
+    "The Central Goods and Services Tax Rules, 2017, Rule 28"
+   ],
+   "retrieved_ids": [
+    "circular_92_11_2019_gst.paragraph.2c",
+    "circular_92_11_2019_gst.paragraph.2d",
+    "cgst_rules_2017.rule.32",
+    "cgst_rules_2017.rule.36",
+    "cgst_rules_2017.rule.39",
+    "cgst_act_2017.section.15",
+    "cgst_act_2017.section.12",
+    "cgst_rules_2017.rule.28"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.16666666666666666,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q010",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Rules, 2017, Rule 43",
+    "The Central Goods and Services Tax Act, 2017, Section 18",
+    "The Central Goods and Services Tax Act, 2017, Section 17",
+    "The Central Goods and Services Tax Rules, 2017, Rule 44",
+    "The Central Goods and Services Tax Rules, 2017, Rule 42",
+    "The Central Goods and Services Tax Rules, 2017, Rule 40",
+    "The Central Goods and Services Tax Act, 2017, Section 16",
+    "The Union Territory Goods and Services Tax Act, 2017, Section 18"
+   ],
+   "retrieved_ids": [
+    "cgst_rules_2017.rule.43",
+    "cgst_act_2017.section.18",
+    "cgst_act_2017.section.17",
+    "cgst_rules_2017.rule.44",
+    "cgst_rules_2017.rule.42",
+    "cgst_rules_2017.rule.40",
+    "cgst_act_2017.section.16",
+    "utgst_act_2017.section.18"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.3333333333333333,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": null
+    }
+   }
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q014",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 16",
+    "The Central Goods and Services Tax Act, 2017, Section 18",
+    "The Central Goods and Services Tax Rules, 2017, Rule 40",
+    "The Union Territory Goods and Services Tax Act, 2017, Section 18",
+    "The Central Goods and Services Tax Act, 2017, Section 22",
+    "The Central Goods and Services Tax Rules, 2017, Rule 44",
+    "The Central Goods and Services Tax Act, 2017, Section 140",
+    "The Central Goods and Services Tax Act, 2017, Section 41"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.16",
+    "cgst_act_2017.section.18",
+    "cgst_rules_2017.rule.40",
+    "utgst_act_2017.section.18",
+    "cgst_act_2017.section.22",
+    "cgst_rules_2017.rule.44",
+    "cgst_act_2017.section.140",
+    "cgst_act_2017.section.41"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.5,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.5,
+     "supporting_recall": 0.0
+    },
+    "corrected": {
+     "required_recall": 0.14285714285714285,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.5,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q015",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Rules, 2017, Rule 40",
+    "The Central Goods and Services Tax Rules, 2017, Rule 117",
+    "The Central Goods and Services Tax Act, 2017, Section 18",
+    "The Central Goods and Services Tax Act, 2017, Section 10",
+    "The Central Goods and Services Tax Rules, 2017, Rule 44",
+    "Notification No. 14/2019-Central Tax, Paragraph 1",
+    "The Central Goods and Services Tax Rules, 2017, Rule 6",
+    "The Central Goods and Services Tax Act, 2017, Section 16"
+   ],
+   "retrieved_ids": [
+    "cgst_rules_2017.rule.40",
+    "cgst_rules_2017.rule.117",
+    "cgst_act_2017.section.18",
+    "cgst_act_2017.section.10",
+    "cgst_rules_2017.rule.44",
+    "notification_14_2019_ct.paragraph.1",
+    "cgst_rules_2017.rule.6",
+    "cgst_act_2017.section.16"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.3333333333333333
+    },
+    "corrected": {
+     "required_recall": 0.5,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q018",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 17",
+    "The Central Goods and Services Tax Act, 2017, Section 41",
+    "The Central Goods and Services Tax Act, 2017, Section 16",
+    "The Union Territory Goods and Services Tax Act, 2017, Section 18",
+    "Notification No. 13/2017-Central Tax (Rate), Entry 1",
+    "The Central Goods and Services Tax Rules, 2017, Rule 117",
+    "The Central Goods and Services Tax Rules, 2017, Rule 86B",
+    "The Central Goods and Services Tax Rules, 2017, Rule 38"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.17",
+    "cgst_act_2017.section.41",
+    "cgst_act_2017.section.16",
+    "utgst_act_2017.section.18",
+    "notification_13_2017_ct_rate.entry.1",
+    "cgst_rules_2017.rule.117",
+    "cgst_rules_2017.rule.86b",
+    "cgst_rules_2017.rule.38"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.6666666666666666,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    },
+    "corrected": {
+     "required_recall": 0.375,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q020",
+   "retrieved_sources": [
+    "Notification No. 12/2017-Central Tax (Rate), Entry 3A",
+    "Notification No. 12/2017-Central Tax (Rate), Entry 35",
+    "The Central Goods and Services Tax Act, 2017, Section 8",
+    "Circular No. 32/06/2018-GST, Entry 4",
+    "The Central Goods and Services Tax Act, 2017, Section 2",
+    "The Integrated Goods and Services Tax Act, 2017, Section 7",
+    "The Central Goods and Services Tax Act, 2017, Section 17",
+    "The Integrated Goods and Services Tax Act, 2017, Section 8"
+   ],
+   "retrieved_ids": [
+    "notification_12_2017_ct_rate.entry.3a",
+    "notification_12_2017_ct_rate.entry.35",
+    "cgst_act_2017.section.8",
+    "circular_32_06_2018_gst.entry.4",
+    "cgst_act_2017.section.2",
+    "igst_act_2017.section.7",
+    "cgst_act_2017.section.17",
+    "igst_act_2017.section.8"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.14285714285714285,
+     "supporting_recall": 1.0
+    },
+    "corrected": {
+     "required_recall": 0.6666666666666666,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.3333333333333333,
+     "supporting_recall": 1.0
+    }
+   }
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q022",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 17",
+    "The Central Goods and Services Tax Act, 2017, Section 16",
+    "The Central Goods and Services Tax Act, 2017, Section 140",
+    "The Central Goods and Services Tax Act, 2017, Section 41",
+    "The Union Territory Goods and Services Tax Act, 2017, Section 18",
+    "The Central Goods and Services Tax Act, 2017, Section 18",
+    "The Central Goods and Services Tax Rules, 2017, Rule 38",
+    "The Central Goods and Services Tax Act, 2017, Section 19"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.17",
+    "cgst_act_2017.section.16",
+    "cgst_act_2017.section.140",
+    "cgst_act_2017.section.41",
+    "utgst_act_2017.section.18",
+    "cgst_act_2017.section.18",
+    "cgst_rules_2017.rule.38",
+    "cgst_act_2017.section.19"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.6666666666666666,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.3333333333333333
+    },
+    "corrected": {
+     "required_recall": 0.3333333333333333,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.5
+    }
+   }
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q023",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Rules, 2017, Rule 89",
+    "The Central Goods and Services Tax Act, 2017, Section 16",
+    "The Central Goods and Services Tax Rules, 2017, Rule 38",
+    "The Central Goods and Services Tax Act, 2017, Section 20",
+    "The Central Goods and Services Tax Rules, 2017, Rule 89",
+    "The Central Goods and Services Tax Act, 2017, Section 49A",
+    "The Central Goods and Services Tax Rules, 2017, Rule 39",
+    "The Central Goods and Services Tax Act, 2017, Section 49B"
+   ],
+   "retrieved_ids": [
+    "cgst_rules_2017.rule.89",
+    "cgst_act_2017.section.16",
+    "cgst_rules_2017.rule.38",
+    "cgst_act_2017.section.20",
+    "cgst_act_2017.section.49a",
+    "cgst_rules_2017.rule.39",
+    "cgst_act_2017.section.49b"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.5,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.5,
+     "supporting_recall": 0.0
+    },
+    "corrected": {
+     "required_recall": 0.06666666666666667,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.5,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "88886bos-aps2102-m2-p7_q024",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 16",
+    "The Central Goods and Services Tax Rules, 2017, Rule 35",
+    "The Central Goods and Services Tax Rules, 2017, Rule 38",
+    "Circular No. 76/50/2018-GST, Paragraph 5",
+    "The Central Goods and Services Tax Act, 2017, Section 17",
+    "The Central Goods and Services Tax Act, 2017, Section 53",
+    "The Central Goods and Services Tax Act, 2017, Section 20",
+    "The Central Goods and Services Tax Rules, 2017, Rule 32"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.16",
+    "cgst_rules_2017.rule.35",
+    "cgst_rules_2017.rule.38",
+    "circular_76_50_2018_gst.paragraph.5",
+    "cgst_act_2017.section.17",
+    "cgst_act_2017.section.53",
+    "cgst_act_2017.section.20",
+    "cgst_rules_2017.rule.32"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.2,
+     "supporting_recall": 0.0
+    },
+    "corrected": {
+     "required_recall": 0.1111111111111111,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.2,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "88887bos-aps2102-m2-p8_q001",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 22",
+    "Notification No. 10/2019-Central Tax, Paragraph 1",
+    "The Central Goods and Services Tax Act, 2017, Section 24",
+    "Notification No. 14/2019-Central Tax, Paragraph 1",
+    "The Integrated Goods and Services Tax Act, 2017, Section 7",
+    "The Central Goods and Services Tax Act, 2017, Section 25",
+    "The Integrated Goods and Services Tax Act, 2017, Section 8",
+    "Circular No. 57/31/2018-GST, Paragraph 9"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.22",
+    "notification_10_2019_ct.paragraph.1",
+    "cgst_act_2017.section.24",
+    "notification_14_2019_ct.paragraph.1",
+    "igst_act_2017.section.7",
+    "cgst_act_2017.section.25",
+    "igst_act_2017.section.8",
+    "circular_57_31_2018_gst.paragraph.9"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    },
+    "corrected": {
+     "required_recall": 0.5,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "88887bos-aps2102-m2-p8_q002",
+   "retrieved_sources": [
+    "Notification No. 10/2019-Central Tax, Paragraph 1",
+    "The Central Goods and Services Tax Act, 2017, Section 22",
+    "Circular No. 57/31/2018-GST, Paragraph 9",
+    "The Central Goods and Services Tax Rules, 2017, Rule 40",
+    "Notification No. 10/2019-Central Tax, Entry 3",
+    "The Central Goods and Services Tax Act, 2017, Section 11",
+    "The Central Goods and Services Tax Act, 2017, Section 23",
+    "The Central Goods and Services Tax Rules, 2017, Rule 43"
+   ],
+   "retrieved_ids": [
+    "notification_10_2019_ct.paragraph.1",
+    "cgst_act_2017.section.22",
+    "circular_57_31_2018_gst.paragraph.9",
+    "cgst_rules_2017.rule.40",
+    "notification_10_2019_ct.entry.3",
+    "cgst_act_2017.section.11",
+    "cgst_act_2017.section.23",
+    "cgst_rules_2017.rule.43"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.6666666666666666,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.5,
+     "supporting_recall": 0.0
+    },
+    "corrected": {
+     "required_recall": 0.5714285714285714,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "88887bos-aps2102-m2-p8_q005",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 22",
+    "Notification No. 9/2017-Integrated Tax (Rate), Entry 7",
+    "Notification No. 14/2019-Central Tax, Paragraph 1",
+    "The Central Goods and Services Tax Act, 2017, Section 10",
+    "Notification No. 10/2019-Central Tax, Paragraph 1",
+    "The Central Goods and Services Tax Act, 2017, Schedule I",
+    "The Central Goods and Services Tax Act, 2017, Section 7",
+    "The Central Goods and Services Tax Act, 2017, Section 2"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.22",
+    "notification_9_2017_it_rate.entry.7",
+    "notification_14_2019_ct.paragraph.1",
+    "cgst_act_2017.section.10",
+    "notification_10_2019_ct.paragraph.1",
+    "cgst_act_2017.schedule.1",
+    "cgst_act_2017.section.7",
+    "cgst_act_2017.section.2"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.5,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 1.0
+    },
+    "corrected": {
+     "required_recall": 0.3333333333333333,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.5
+    }
+   }
+  },
+  {
+   "id": "88887bos-aps2102-m2-p8_q006",
+   "retrieved_sources": [
+    "Notification No. 14/2019-Central Tax, Paragraph 1",
+    "The Central Goods and Services Tax Act, 2017, Section 22",
+    "The Central Goods and Services Tax Act, 2017, Section 10",
+    "Notification No. 10/2019-Central Tax, Paragraph 1",
+    "Notification No. 2/2019-Central Tax (Rate), Paragraph 2",
+    "The Central Goods and Services Tax Act, 2017, Section 25",
+    "The Central Goods and Services Tax Act, 2017, Section 38",
+    "The Central Goods and Services Tax Act, 2017, Section 26"
+   ],
+   "retrieved_ids": [
+    "notification_14_2019_ct.paragraph.1",
+    "cgst_act_2017.section.22",
+    "cgst_act_2017.section.10",
+    "notification_10_2019_ct.paragraph.1",
+    "notification_2_2019_ct_rate.paragraph.2",
+    "cgst_act_2017.section.25",
+    "cgst_act_2017.section.38",
+    "cgst_act_2017.section.26"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.5,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.5,
+     "supporting_recall": 0.0
+    },
+    "corrected": {
+     "required_recall": 0.8,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "88888bos-aps2102-m2-p9_q003",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 31",
+    "The Central Goods and Services Tax Act, 2017, Section 12",
+    "The Central Goods and Services Tax Act, 2017, Section 13",
+    "The Central Goods and Services Tax Rules, 2017, Rule 47A",
+    "The Central Goods and Services Tax Rules, 2017, Rule 50",
+    "The Central Goods and Services Tax Act, 2017, Section 14",
+    "The Central Goods and Services Tax Rules, 2017, Rule 46",
+    "The Central Goods and Services Tax Act, 2017, Section 34"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.31",
+    "cgst_act_2017.section.12",
+    "cgst_act_2017.section.13",
+    "cgst_rules_2017.rule.47a",
+    "cgst_rules_2017.rule.50",
+    "cgst_act_2017.section.14",
+    "cgst_rules_2017.rule.46",
+    "cgst_act_2017.section.34"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.3333333333333333,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "88890bos-aps2102-m2-p11_q002",
+   "retrieved_sources": [
+    "The Integrated Goods and Services Tax Act, 2017, Section 19",
+    "The Integrated Goods and Services Tax Act, 2017, Section 8",
+    "The Central Goods and Services Tax Rules, 2017, Rule 35",
+    "The Union Territory Goods and Services Tax Act, 2017, Section 12",
+    "The Integrated Goods and Services Tax Act, 2017, Section 18",
+    "The Integrated Goods and Services Tax Act, 2017, Section 7",
+    "The Central Goods and Services Tax Act, 2017, Section 53",
+    "The Union Territory Goods and Services Tax Act, 2017, Section 9"
+   ],
+   "retrieved_ids": [
+    "igst_act_2017.section.19",
+    "igst_act_2017.section.8",
+    "cgst_rules_2017.rule.35",
+    "utgst_act_2017.section.12",
+    "igst_act_2017.section.18",
+    "igst_act_2017.section.7",
+    "cgst_act_2017.section.53",
+    "utgst_act_2017.section.9"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.0,
+     "all_required_hit": 0.0,
+     "any_required_hit": 0.0,
+     "required_mrr": 0.0,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.5,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.5,
+     "supporting_recall": null
+    }
+   }
+  },
+  {
+   "id": "88890bos-aps2102-m2-p11_q003",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 41",
+    "The Central Goods and Services Tax Act, 2017, Section 49A",
+    "The Central Goods and Services Tax Act, 2017, Section 53",
+    "The Central Goods and Services Tax Rules, 2017, Rule 37",
+    "The Central Goods and Services Tax Act, 2017, Section 49B",
+    "The Central Goods and Services Tax Act, 2017, Section 16",
+    "The Central Goods and Services Tax Act, 2017, Section 49",
+    "The Union Territory Goods and Services Tax Act, 2017, Section 10"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.41",
+    "cgst_act_2017.section.49a",
+    "cgst_act_2017.section.53",
+    "cgst_rules_2017.rule.37",
+    "cgst_act_2017.section.49b",
+    "cgst_act_2017.section.16",
+    "cgst_act_2017.section.49",
+    "utgst_act_2017.section.10"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.14285714285714285,
+     "supporting_recall": 0.0
+    },
+    "corrected": {
+     "required_recall": 0.3333333333333333,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.14285714285714285,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "88890bos-aps2102-m2-p11_q009",
+   "retrieved_sources": [
+    "Notification No. 12/2017-Central Tax (Rate), Entry 3A",
+    "The Integrated Goods and Services Tax Act, 2017, Section 12",
+    "Circular No. 103/22/2019-GST, Paragraph 2",
+    "The Integrated Goods and Services Tax Act, 2017, Section 10",
+    "The Integrated Goods and Services Tax Act, 2017, Section 13",
+    "The Integrated Goods and Services Tax Rules, 2017, Rule 7",
+    "Circular No. 76/50/2018-GST, Paragraph 5",
+    "The Central Goods and Services Tax Rules, 2017, Rule 35"
+   ],
+   "retrieved_ids": [
+    "notification_12_2017_ct_rate.entry.3a",
+    "igst_act_2017.section.12",
+    "circular_103_22_2019_gst.paragraph.2",
+    "igst_act_2017.section.10",
+    "igst_act_2017.section.13",
+    "igst_rules_2017.rule.7",
+    "circular_76_50_2018_gst.paragraph.5",
+    "cgst_rules_2017.rule.35"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.0,
+     "all_required_hit": 0.0,
+     "any_required_hit": 0.0,
+     "required_mrr": 0.0,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.0,
+     "all_required_hit": 0.0,
+     "any_required_hit": 0.0,
+     "required_mrr": 0.0,
+     "supporting_recall": null
+    }
+   }
+  },
+  {
+   "id": "88891bos-aps2102-m2-p12_q001",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 52",
+    "The Integrated Goods and Services Tax Act, 2017, Section 14",
+    "The Integrated Goods and Services Tax Act, 2017, Section 10",
+    "The Central Goods and Services Tax Act, 2017, Section 9",
+    "The Integrated Goods and Services Tax Act, 2017, Section 12",
+    "The Central Goods and Services Tax Rules, 2017, Rule 67",
+    "The Integrated Goods and Services Tax Act, 2017, Section 20",
+    "The Integrated Goods and Services Tax Act, 2017, Section 13"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.52",
+    "igst_act_2017.section.14",
+    "igst_act_2017.section.10",
+    "cgst_act_2017.section.9",
+    "igst_act_2017.section.12",
+    "cgst_rules_2017.rule.67",
+    "igst_act_2017.section.20",
+    "igst_act_2017.section.13"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    },
+    "corrected": {
+     "required_recall": 0.6,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.0
+    }
+   }
+  },
+  {
+   "id": "88891bos-aps2102-m2-p12_q003",
+   "retrieved_sources": [
+    "The Central Goods and Services Tax Act, 2017, Section 52",
+    "The Central Goods and Services Tax Rules, 2017, Rule 67",
+    "The Central Goods and Services Tax Act, 2017, Section 24",
+    "The Central Goods and Services Tax Act, 2017, Section 9",
+    "The Central Goods and Services Tax Rules, 2017, Rule 78",
+    "Notification No. 17/2017-Central Tax (Rate), Paragraph 1",
+    "The Integrated Goods and Services Tax Act, 2017, Section 5",
+    "Notification No. 17/2017-Central Tax (Rate), Paragraph 2"
+   ],
+   "retrieved_ids": [
+    "cgst_act_2017.section.52",
+    "cgst_rules_2017.rule.67",
+    "cgst_act_2017.section.24",
+    "cgst_act_2017.section.9",
+    "cgst_rules_2017.rule.78",
+    "notification_17_2017_ct_rate.paragraph.1",
+    "igst_act_2017.section.5",
+    "notification_17_2017_ct_rate.paragraph.2"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "full",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 1.0,
+     "all_required_hit": 1.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.25,
+     "supporting_recall": null
+    },
+    "corrected": {
+     "required_recall": 0.25,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 1.0
+    }
+   }
+  },
+  {
+   "id": "88891bos-aps2102-m2-p12_q008",
+   "retrieved_sources": [
+    "Notification No. 17/2017-Central Tax (Rate), Paragraph 1",
+    "The Central Goods and Services Tax Act, 2017, Section 22",
+    "Notification No. 10/2019-Central Tax, Paragraph 1",
+    "The Central Goods and Services Tax Act, 2017, Section 24",
+    "The Central Goods and Services Tax Act, 2017, Section 52",
+    "The Central Goods and Services Tax Act, 2017, Section 25",
+    "Circular No. 57/31/2018-GST, Paragraph 9",
+    "The Central Goods and Services Tax Rules, 2017, Rule 67"
+   ],
+   "retrieved_ids": [
+    "notification_17_2017_ct_rate.paragraph.1",
+    "cgst_act_2017.section.22",
+    "notification_10_2019_ct.paragraph.1",
+    "cgst_act_2017.section.24",
+    "cgst_act_2017.section.52",
+    "cgst_act_2017.section.25",
+    "circular_57_31_2018_gst.paragraph.9",
+    "cgst_rules_2017.rule.67"
+   ],
+   "rank_order_known": true,
+   "coverage": {
+    "original": "partial",
+    "corrected": "full"
+   },
+   "retrieval": {
+    "original": {
+     "required_recall": 0.5,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 0.2,
+     "supporting_recall": 0.6666666666666666
+    },
+    "corrected": {
+     "required_recall": 0.4,
+     "all_required_hit": 0.0,
+     "any_required_hit": 1.0,
+     "required_mrr": 1.0,
+     "supporting_recall": 0.4
+    }
+   }
+  }
+ ]
+}

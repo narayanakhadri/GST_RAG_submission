@@ -1,0 +1,41 @@
+{
+  "hybrid (baseline)": {
+    "path": "eval/results/20261016T191402Z_gst_hybrid.judge-qwen-qwen3-30b-a3b-instruct-2507.json",
+    "gpt-4o-mini": "eval/results/20261016T191402Z_gst_hybrid.json"
+  },
+  "hybrid + MiniLM rerank + CRAG": {
+    "path": "eval/results/20261016T195233Z_gst_hybrid+rerank+crag.judge-qwen-qwen3-30b-a3b-instruct-2507.json",
+    "gpt-4o-mini": "eval/results/20261016T195233Z_gst_hybrid+rerank+crag.json"
+  },
+  "best stack (3-large, top-8, cap 3)": {
+    "path": "eval/results/20261017T155939Z_gst_best_stack.judge-qwen-qwen3-30b-a3b-instruct-2507.json",
+    "gpt-4o-mini": "eval/results/20261017T155939Z_gst_best_stack.json"
+  },
+  "best stack + grounded prompt": {
+    "path": "eval/results/20261017T173022Z_gst_best_stack_grounded.judge-qwen-qwen3-30b-a3b-instruct-2507.json"
+  },
+  "final system (E17 + T31 + grounded, law+summary), all 146": {
+    "paths": [
+      "eval/results/20261020T040741Z_gst_final_t31_sme_p1.judge-qwen-qwen3-30b-a3b-instruct-2507.json",
+      "eval/results/20261020T040741Z_gst_final_t31_devtest_rest.judge-qwen-qwen3-30b-a3b-instruct-2507.json",
+      "eval/results/20261020T040741Z_gst_final_t31_rest67.judge-qwen-qwen3-30b-a3b-instruct-2507.json"
+    ],
+    "answers": "eval/results/20261020T040741Z_gst_final_t31_all.json"
+  },
+  "final system, question in the judge's context (faithfulness), 79 SME q": {
+    "path": "eval/results/20261020T040741Z_gst_final_t31_sme79_qctx.judge-qwen-qwen3-30b-a3b-instruct-2507.json"
+  },
+  "closed book (no retrieval, correctness), 79 SME q": {
+    "path": "eval/results/20261020T085727Z_gst_closed_book_all.judge-qwen-qwen3-30b-a3b-instruct-2507.json"
+  },
+  "final system + version notes as on 30.04.2025 (correctness), 8 law-change q": {
+    "path": "eval/results/20261020T092307Z_gst_final_t31_as_on_2025_all.judge-qwen-qwen3-30b-a3b-instruct-2507.json"
+  },
+  "final system + graph relations in the prompt, 79 SME q": {
+    "path": "eval/results/20261020T094253Z_gst_final_t31_relations_all.judge-qwen-qwen3-30b-a3b-instruct-2507.json"
+  },
+  "judge check: Codex CLI (ChatGPT) on the 14 SME P1": {
+    "path": "eval/results/20261020T040741Z_gst_final_t31_sme_p1.judge-codex-default.json",
+    "note": "not a reported number; agreement check only"
+  }
+}

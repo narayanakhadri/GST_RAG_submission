@@ -1,0 +1,2501 @@
+{
+  "description": "    uv run python -m scripts.thesis.make_question_sets",
+  "n_configs_for_observed": 29,
+  "sets": {
+    "all": [
+      "87619bos-aps2102-p5u1_q001",
+      "87619bos-aps2102-p5u1_q002",
+      "87619bos-aps2102-p5u1_q003",
+      "87619bos-aps2102-p5u1_q004",
+      "87619bos-aps2102-p5u1_q005",
+      "87619bos-aps2102-p5u1_q006",
+      "87619bos-aps2102-p5u1_q007",
+      "87619bos-aps2102-p5u1_q008",
+      "87619bos-aps2102-p5u1_q009",
+      "87619bos-aps2102-p5u1_q010",
+      "87619bos-aps2102-p5u1_q011",
+      "87619bos-aps2102-p5u1_q012",
+      "87619bos-aps2102-p5u1_q013",
+      "87619bos-aps2102-p5u1_q014",
+      "87620bos-aps2102-p5u2_q001",
+      "87620bos-aps2102-p5u2_q002",
+      "87620bos-aps2102-p5u2_q003",
+      "87620bos-aps2102-p5u2_q004",
+      "87620bos-aps2102-p5u2_q005",
+      "87620bos-aps2102-p5u2_q006",
+      "87620bos-aps2102-p5u2_q007",
+      "87620bos-aps2102-p5u2_q008",
+      "87620bos-aps2102-p5u2_q009",
+      "87620bos-aps2102-p5u2_q010",
+      "87620bos-aps2102-p5u2_q011",
+      "87620bos-aps2102-p5u2_q012",
+      "87620bos-aps2102-p5u2_q013",
+      "87620bos-aps2102-p5u2_q014",
+      "87621bos-aps2102-p5u3_q001",
+      "87621bos-aps2102-p5u3_q002",
+      "87621bos-aps2102-p5u3_q003",
+      "87621bos-aps2102-p5u3_q004",
+      "87621bos-aps2102-p5u3_q005",
+      "87621bos-aps2102-p5u3_q006",
+      "87621bos-aps2102-p5u3_q007",
+      "87621bos-aps2102-p5u3_q008",
+      "87621bos-aps2102-p5u3_q009",
+      "87621bos-aps2102-p5u3_q010",
+      "87622bos-aps2102-p5u4_q001",
+      "87622bos-aps2102-p5u4_q002",
+      "87622bos-aps2102-p5u4_q003",
+      "87622bos-aps2102-p5u4_q005",
+      "87622bos-aps2102-p5u4_q006",
+      "87622bos-aps2102-p5u4_q008",
+      "87622bos-aps2102-p5u4_q009",
+      "87622bos-aps2102-p5u4_q010",
+      "87622bos-aps2102-p5u4_q011",
+      "87622bos-aps2102-p5u4_q012",
+      "87622bos-aps2102-p5u4_q013",
+      "87622bos-aps2102-p5u4_q014",
+      "87623bos-aps2102-p5u5_q001",
+      "87623bos-aps2102-p5u5_q002",
+      "87623bos-aps2102-p5u5_q003",
+      "87623bos-aps2102-p5u5_q004",
+      "87623bos-aps2102-p5u5_q005",
+      "87623bos-aps2102-p5u5_q006",
+      "87623bos-aps2102-p5u5_q008",
+      "87623bos-aps2102-p5u5_q009",
+      "87623bos-aps2102-p5u5_q010",
+      "88087bos-aps2102-ch6_q001",
+      "88087bos-aps2102-ch6_q002",
+      "88087bos-aps2102-ch6_q003",
+      "88087bos-aps2102-ch6_q004",
+      "88087bos-aps2102-ch6_q005",
+      "88087bos-aps2102-ch6_q006",
+      "88087bos-aps2102-ch6_q007",
+      "88087bos-aps2102-ch6_q008",
+      "88087bos-aps2102-ch6_q009",
+      "88087bos-aps2102-ch6_q010",
+      "88087bos-aps2102-ch6_q011",
+      "88087bos-aps2102-ch6_q012",
+      "88087bos-aps2102-ch6_q013",
+      "88087bos-aps2102-ch6_q014",
+      "88087bos-aps2102-ch6_q015",
+      "88087bos-aps2102-ch6_q016",
+      "88886bos-aps2102-m2-p7_q001",
+      "88886bos-aps2102-m2-p7_q002",
+      "88886bos-aps2102-m2-p7_q003",
+      "88886bos-aps2102-m2-p7_q004",
+      "88886bos-aps2102-m2-p7_q005",
+      "88886bos-aps2102-m2-p7_q006",
+      "88886bos-aps2102-m2-p7_q007",
+      "88886bos-aps2102-m2-p7_q008",
+      "88886bos-aps2102-m2-p7_q009",
+      "88886bos-aps2102-m2-p7_q010",
+      "88886bos-aps2102-m2-p7_q011",
+      "88886bos-aps2102-m2-p7_q012",
+      "88886bos-aps2102-m2-p7_q013",
+      "88886bos-aps2102-m2-p7_q014",
+      "88886bos-aps2102-m2-p7_q015",
+      "88886bos-aps2102-m2-p7_q016",
+      "88886bos-aps2102-m2-p7_q017",
+      "88886bos-aps2102-m2-p7_q018",
+      "88886bos-aps2102-m2-p7_q020",
+      "88886bos-aps2102-m2-p7_q021",
+      "88886bos-aps2102-m2-p7_q022",
+      "88886bos-aps2102-m2-p7_q023",
+      "88886bos-aps2102-m2-p7_q024",
+      "88887bos-aps2102-m2-p8_q001",
+      "88887bos-aps2102-m2-p8_q002",
+      "88887bos-aps2102-m2-p8_q003",
+      "88887bos-aps2102-m2-p8_q004",
+      "88887bos-aps2102-m2-p8_q005",
+      "88887bos-aps2102-m2-p8_q006",
+      "88888bos-aps2102-m2-p9_q001",
+      "88888bos-aps2102-m2-p9_q002",
+      "88888bos-aps2102-m2-p9_q003",
+      "88888bos-aps2102-m2-p9_q004",
+      "88889bos-aps2102-m2-p10_q001",
+      "88889bos-aps2102-m2-p10_q002",
+      "88889bos-aps2102-m2-p10_q003",
+      "88889bos-aps2102-m2-p10_q004",
+      "88889bos-aps2102-m2-p10_q005",
+      "88889bos-aps2102-m2-p10_q006",
+      "88890bos-aps2102-m2-p11_q001",
+      "88890bos-aps2102-m2-p11_q002",
+      "88890bos-aps2102-m2-p11_q003",
+      "88890bos-aps2102-m2-p11_q004",
+      "88890bos-aps2102-m2-p11_q005",
+      "88890bos-aps2102-m2-p11_q006",
+      "88890bos-aps2102-m2-p11_q007",
+      "88890bos-aps2102-m2-p11_q008",
+      "88890bos-aps2102-m2-p11_q009",
+      "88891bos-aps2102-m2-p12_q001",
+      "88891bos-aps2102-m2-p12_q002",
+      "88891bos-aps2102-m2-p12_q003",
+      "88891bos-aps2102-m2-p12_q004",
+      "88891bos-aps2102-m2-p12_q005",
+      "88891bos-aps2102-m2-p12_q006",
+      "88891bos-aps2102-m2-p12_q007",
+      "88891bos-aps2102-m2-p12_q008",
+      "88892bos-aps2102-m2-p13_q001",
+      "88892bos-aps2102-m2-p13_q002",
+      "88892bos-aps2102-m2-p13_q003",
+      "88892bos-aps2102-m2-p13_q004",
+      "88892bos-aps2102-m2-p13_q005",
+      "88892bos-aps2102-m2-p13_q006",
+      "88892bos-aps2102-m2-p13_q007",
+      "88892bos-aps2102-m2-p13_q008",
+      "88892bos-aps2102-m2-p13_q009",
+      "88892bos-aps2102-m2-p13_q010"
+    ],
+    "quick40": [
+      "87619bos-aps2102-p5u1_q006",
+      "87619bos-aps2102-p5u1_q007",
+      "87619bos-aps2102-p5u1_q009",
+      "87619bos-aps2102-p5u1_q013",
+      "87620bos-aps2102-p5u2_q002",
+      "87620bos-aps2102-p5u2_q004",
+      "87620bos-aps2102-p5u2_q005",
+      "87620bos-aps2102-p5u2_q009",
+      "87620bos-aps2102-p5u2_q012",
+      "87621bos-aps2102-p5u3_q002",
+      "87621bos-aps2102-p5u3_q003",
+      "87621bos-aps2102-p5u3_q004",
+      "87621bos-aps2102-p5u3_q010",
+      "87622bos-aps2102-p5u4_q013",
+      "87623bos-aps2102-p5u5_q004",
+      "87623bos-aps2102-p5u5_q009",
+      "88087bos-aps2102-ch6_q003",
+      "88087bos-aps2102-ch6_q006",
+      "88087bos-aps2102-ch6_q010",
+      "88886bos-aps2102-m2-p7_q003",
+      "88886bos-aps2102-m2-p7_q005",
+      "88886bos-aps2102-m2-p7_q008",
+      "88886bos-aps2102-m2-p7_q009",
+      "88886bos-aps2102-m2-p7_q012",
+      "88886bos-aps2102-m2-p7_q024",
+      "88887bos-aps2102-m2-p8_q002",
+      "88887bos-aps2102-m2-p8_q003",
+      "88888bos-aps2102-m2-p9_q004",
+      "88889bos-aps2102-m2-p10_q001",
+      "88889bos-aps2102-m2-p10_q003",
+      "88890bos-aps2102-m2-p11_q001",
+      "88890bos-aps2102-m2-p11_q002",
+      "88890bos-aps2102-m2-p11_q003",
+      "88890bos-aps2102-m2-p11_q004",
+      "88890bos-aps2102-m2-p11_q007",
+      "88891bos-aps2102-m2-p12_q002",
+      "88891bos-aps2102-m2-p12_q004",
+      "88892bos-aps2102-m2-p13_q003",
+      "88892bos-aps2102-m2-p13_q004",
+      "88892bos-aps2102-m2-p13_q008"
+    ],
+    "tier_easy": [
+      "87619bos-aps2102-p5u1_q002",
+      "87619bos-aps2102-p5u1_q004",
+      "87619bos-aps2102-p5u1_q012",
+      "87620bos-aps2102-p5u2_q012",
+      "87621bos-aps2102-p5u3_q003",
+      "87623bos-aps2102-p5u5_q002",
+      "87623bos-aps2102-p5u5_q003",
+      "87623bos-aps2102-p5u5_q005",
+      "87623bos-aps2102-p5u5_q008",
+      "88087bos-aps2102-ch6_q003",
+      "88087bos-aps2102-ch6_q004",
+      "88087bos-aps2102-ch6_q006",
+      "88087bos-aps2102-ch6_q008",
+      "88087bos-aps2102-ch6_q011",
+      "88087bos-aps2102-ch6_q012",
+      "88087bos-aps2102-ch6_q013",
+      "88087bos-aps2102-ch6_q015",
+      "88886bos-aps2102-m2-p7_q003",
+      "88886bos-aps2102-m2-p7_q005",
+      "88888bos-aps2102-m2-p9_q002",
+      "88889bos-aps2102-m2-p10_q001",
+      "88889bos-aps2102-m2-p10_q002",
+      "88889bos-aps2102-m2-p10_q004",
+      "88889bos-aps2102-m2-p10_q006",
+      "88890bos-aps2102-m2-p11_q005",
+      "88891bos-aps2102-m2-p12_q002",
+      "88891bos-aps2102-m2-p12_q004",
+      "88891bos-aps2102-m2-p12_q005",
+      "88891bos-aps2102-m2-p12_q006",
+      "88891bos-aps2102-m2-p12_q007",
+      "88892bos-aps2102-m2-p13_q001",
+      "88892bos-aps2102-m2-p13_q002",
+      "88892bos-aps2102-m2-p13_q003",
+      "88892bos-aps2102-m2-p13_q005",
+      "88892bos-aps2102-m2-p13_q006",
+      "88892bos-aps2102-m2-p13_q007"
+    ],
+    "tier_medium": [
+      "87619bos-aps2102-p5u1_q003",
+      "87619bos-aps2102-p5u1_q005",
+      "87619bos-aps2102-p5u1_q007",
+      "87619bos-aps2102-p5u1_q009",
+      "87619bos-aps2102-p5u1_q010",
+      "87620bos-aps2102-p5u2_q001",
+      "87620bos-aps2102-p5u2_q003",
+      "87620bos-aps2102-p5u2_q009",
+      "87620bos-aps2102-p5u2_q013",
+      "87621bos-aps2102-p5u3_q005",
+      "87621bos-aps2102-p5u3_q007",
+      "87621bos-aps2102-p5u3_q008",
+      "87621bos-aps2102-p5u3_q009",
+      "87621bos-aps2102-p5u3_q010",
+      "87622bos-aps2102-p5u4_q001",
+      "87622bos-aps2102-p5u4_q005",
+      "87622bos-aps2102-p5u4_q006",
+      "87622bos-aps2102-p5u4_q014",
+      "88087bos-aps2102-ch6_q001",
+      "88087bos-aps2102-ch6_q002",
+      "88087bos-aps2102-ch6_q005",
+      "88087bos-aps2102-ch6_q007",
+      "88087bos-aps2102-ch6_q014",
+      "88886bos-aps2102-m2-p7_q001",
+      "88886bos-aps2102-m2-p7_q004",
+      "88886bos-aps2102-m2-p7_q006",
+      "88886bos-aps2102-m2-p7_q007",
+      "88886bos-aps2102-m2-p7_q009",
+      "88886bos-aps2102-m2-p7_q013",
+      "88888bos-aps2102-m2-p9_q004",
+      "88889bos-aps2102-m2-p10_q003",
+      "88890bos-aps2102-m2-p11_q001",
+      "88892bos-aps2102-m2-p13_q004",
+      "88892bos-aps2102-m2-p13_q008",
+      "88892bos-aps2102-m2-p13_q009"
+    ],
+    "tier_hard": [
+      "87619bos-aps2102-p5u1_q001",
+      "87619bos-aps2102-p5u1_q006",
+      "87619bos-aps2102-p5u1_q014",
+      "87620bos-aps2102-p5u2_q004",
+      "87620bos-aps2102-p5u2_q007",
+      "87620bos-aps2102-p5u2_q008",
+      "87620bos-aps2102-p5u2_q010",
+      "87621bos-aps2102-p5u3_q002",
+      "87621bos-aps2102-p5u3_q006",
+      "87622bos-aps2102-p5u4_q002",
+      "87622bos-aps2102-p5u4_q008",
+      "87622bos-aps2102-p5u4_q009",
+      "87622bos-aps2102-p5u4_q012",
+      "87623bos-aps2102-p5u5_q001",
+      "87623bos-aps2102-p5u5_q004",
+      "87623bos-aps2102-p5u5_q006",
+      "87623bos-aps2102-p5u5_q010",
+      "88087bos-aps2102-ch6_q009",
+      "88087bos-aps2102-ch6_q010",
+      "88886bos-aps2102-m2-p7_q002",
+      "88886bos-aps2102-m2-p7_q008",
+      "88886bos-aps2102-m2-p7_q010",
+      "88886bos-aps2102-m2-p7_q020",
+      "88886bos-aps2102-m2-p7_q022",
+      "88888bos-aps2102-m2-p9_q003",
+      "88889bos-aps2102-m2-p10_q005",
+      "88890bos-aps2102-m2-p11_q002",
+      "88890bos-aps2102-m2-p11_q003",
+      "88890bos-aps2102-m2-p11_q004",
+      "88890bos-aps2102-m2-p11_q006",
+      "88890bos-aps2102-m2-p11_q007",
+      "88890bos-aps2102-m2-p11_q009",
+      "88891bos-aps2102-m2-p12_q001",
+      "88891bos-aps2102-m2-p12_q003",
+      "88892bos-aps2102-m2-p13_q010"
+    ],
+    "tier_very_hard": [
+      "87619bos-aps2102-p5u1_q008",
+      "87619bos-aps2102-p5u1_q011",
+      "87619bos-aps2102-p5u1_q013",
+      "87620bos-aps2102-p5u2_q002",
+      "87620bos-aps2102-p5u2_q005",
+      "87620bos-aps2102-p5u2_q006",
+      "87620bos-aps2102-p5u2_q011",
+      "87620bos-aps2102-p5u2_q014",
+      "87621bos-aps2102-p5u3_q001",
+      "87621bos-aps2102-p5u3_q004",
+      "87622bos-aps2102-p5u4_q003",
+      "87622bos-aps2102-p5u4_q010",
+      "87622bos-aps2102-p5u4_q011",
+      "87622bos-aps2102-p5u4_q013",
+      "87623bos-aps2102-p5u5_q009",
+      "88087bos-aps2102-ch6_q016",
+      "88886bos-aps2102-m2-p7_q011",
+      "88886bos-aps2102-m2-p7_q012",
+      "88886bos-aps2102-m2-p7_q014",
+      "88886bos-aps2102-m2-p7_q015",
+      "88886bos-aps2102-m2-p7_q016",
+      "88886bos-aps2102-m2-p7_q017",
+      "88886bos-aps2102-m2-p7_q018",
+      "88886bos-aps2102-m2-p7_q021",
+      "88886bos-aps2102-m2-p7_q023",
+      "88886bos-aps2102-m2-p7_q024",
+      "88887bos-aps2102-m2-p8_q001",
+      "88887bos-aps2102-m2-p8_q002",
+      "88887bos-aps2102-m2-p8_q003",
+      "88887bos-aps2102-m2-p8_q004",
+      "88887bos-aps2102-m2-p8_q005",
+      "88887bos-aps2102-m2-p8_q006",
+      "88888bos-aps2102-m2-p9_q001",
+      "88890bos-aps2102-m2-p11_q008",
+      "88891bos-aps2102-m2-p12_q008"
+    ],
+    "observed_easy": [
+      "87619bos-aps2102-p5u1_q004",
+      "87619bos-aps2102-p5u1_q012",
+      "87620bos-aps2102-p5u2_q003",
+      "87620bos-aps2102-p5u2_q009",
+      "87620bos-aps2102-p5u2_q012",
+      "87620bos-aps2102-p5u2_q013",
+      "87621bos-aps2102-p5u3_q003",
+      "87621bos-aps2102-p5u3_q007",
+      "87621bos-aps2102-p5u3_q008",
+      "87621bos-aps2102-p5u3_q009",
+      "87621bos-aps2102-p5u3_q010",
+      "87623bos-aps2102-p5u5_q002",
+      "87623bos-aps2102-p5u5_q003",
+      "87623bos-aps2102-p5u5_q005",
+      "87623bos-aps2102-p5u5_q008",
+      "88087bos-aps2102-ch6_q003",
+      "88087bos-aps2102-ch6_q006",
+      "88087bos-aps2102-ch6_q011",
+      "88087bos-aps2102-ch6_q014",
+      "88087bos-aps2102-ch6_q015",
+      "88886bos-aps2102-m2-p7_q004",
+      "88886bos-aps2102-m2-p7_q006",
+      "88888bos-aps2102-m2-p9_q002",
+      "88888bos-aps2102-m2-p9_q004",
+      "88889bos-aps2102-m2-p10_q001",
+      "88889bos-aps2102-m2-p10_q002",
+      "88889bos-aps2102-m2-p10_q004",
+      "88889bos-aps2102-m2-p10_q006",
+      "88891bos-aps2102-m2-p12_q004",
+      "88891bos-aps2102-m2-p12_q005",
+      "88892bos-aps2102-m2-p13_q002",
+      "88892bos-aps2102-m2-p13_q003",
+      "88892bos-aps2102-m2-p13_q006",
+      "88892bos-aps2102-m2-p13_q007"
+    ],
+    "observed_medium": [
+      "87619bos-aps2102-p5u1_q002",
+      "87620bos-aps2102-p5u2_q007",
+      "87620bos-aps2102-p5u2_q008",
+      "87620bos-aps2102-p5u2_q014",
+      "87622bos-aps2102-p5u4_q005",
+      "87622bos-aps2102-p5u4_q006",
+      "87622bos-aps2102-p5u4_q008",
+      "87622bos-aps2102-p5u4_q009",
+      "87622bos-aps2102-p5u4_q012",
+      "87622bos-aps2102-p5u4_q014",
+      "87623bos-aps2102-p5u5_q009",
+      "88087bos-aps2102-ch6_q001",
+      "88087bos-aps2102-ch6_q002",
+      "88087bos-aps2102-ch6_q007",
+      "88087bos-aps2102-ch6_q010",
+      "88087bos-aps2102-ch6_q013",
+      "88886bos-aps2102-m2-p7_q007",
+      "88886bos-aps2102-m2-p7_q012",
+      "88887bos-aps2102-m2-p8_q006",
+      "88889bos-aps2102-m2-p10_q003",
+      "88890bos-aps2102-m2-p11_q001",
+      "88890bos-aps2102-m2-p11_q007",
+      "88892bos-aps2102-m2-p13_q001",
+      "88892bos-aps2102-m2-p13_q008",
+      "88892bos-aps2102-m2-p13_q009"
+    ],
+    "observed_hard": [
+      "87619bos-aps2102-p5u1_q001",
+      "87619bos-aps2102-p5u1_q007",
+      "87619bos-aps2102-p5u1_q008",
+      "87619bos-aps2102-p5u1_q009",
+      "87619bos-aps2102-p5u1_q010",
+      "87619bos-aps2102-p5u1_q011",
+      "87619bos-aps2102-p5u1_q014",
+      "87620bos-aps2102-p5u2_q001",
+      "87620bos-aps2102-p5u2_q002",
+      "87620bos-aps2102-p5u2_q004",
+      "87620bos-aps2102-p5u2_q005",
+      "87620bos-aps2102-p5u2_q006",
+      "87620bos-aps2102-p5u2_q010",
+      "87620bos-aps2102-p5u2_q011",
+      "87621bos-aps2102-p5u3_q001",
+      "87621bos-aps2102-p5u3_q002",
+      "87621bos-aps2102-p5u3_q004",
+      "87621bos-aps2102-p5u3_q005",
+      "87622bos-aps2102-p5u4_q002",
+      "87622bos-aps2102-p5u4_q003",
+      "87622bos-aps2102-p5u4_q010",
+      "87622bos-aps2102-p5u4_q011",
+      "87622bos-aps2102-p5u4_q013",
+      "87623bos-aps2102-p5u5_q001",
+      "87623bos-aps2102-p5u5_q004",
+      "87623bos-aps2102-p5u5_q006",
+      "87623bos-aps2102-p5u5_q010",
+      "88087bos-aps2102-ch6_q008",
+      "88087bos-aps2102-ch6_q009",
+      "88087bos-aps2102-ch6_q012",
+      "88886bos-aps2102-m2-p7_q002",
+      "88886bos-aps2102-m2-p7_q003",
+      "88886bos-aps2102-m2-p7_q005",
+      "88886bos-aps2102-m2-p7_q008",
+      "88886bos-aps2102-m2-p7_q009",
+      "88886bos-aps2102-m2-p7_q010",
+      "88886bos-aps2102-m2-p7_q011",
+      "88886bos-aps2102-m2-p7_q013",
+      "88886bos-aps2102-m2-p7_q014",
+      "88886bos-aps2102-m2-p7_q015",
+      "88886bos-aps2102-m2-p7_q016",
+      "88886bos-aps2102-m2-p7_q017",
+      "88886bos-aps2102-m2-p7_q018",
+      "88886bos-aps2102-m2-p7_q022",
+      "88887bos-aps2102-m2-p8_q001",
+      "88887bos-aps2102-m2-p8_q002",
+      "88887bos-aps2102-m2-p8_q003",
+      "88887bos-aps2102-m2-p8_q004",
+      "88887bos-aps2102-m2-p8_q005",
+      "88888bos-aps2102-m2-p9_q001",
+      "88888bos-aps2102-m2-p9_q003",
+      "88889bos-aps2102-m2-p10_q005",
+      "88890bos-aps2102-m2-p11_q002",
+      "88890bos-aps2102-m2-p11_q005",
+      "88890bos-aps2102-m2-p11_q006",
+      "88890bos-aps2102-m2-p11_q008",
+      "88891bos-aps2102-m2-p12_q001",
+      "88891bos-aps2102-m2-p12_q002",
+      "88891bos-aps2102-m2-p12_q003",
+      "88891bos-aps2102-m2-p12_q008",
+      "88892bos-aps2102-m2-p13_q010"
+    ],
+    "observed_very_hard": [
+      "87619bos-aps2102-p5u1_q003",
+      "87619bos-aps2102-p5u1_q005",
+      "87619bos-aps2102-p5u1_q006",
+      "87619bos-aps2102-p5u1_q013",
+      "87621bos-aps2102-p5u3_q006",
+      "87622bos-aps2102-p5u4_q001",
+      "88087bos-aps2102-ch6_q004",
+      "88087bos-aps2102-ch6_q005",
+      "88087bos-aps2102-ch6_q016",
+      "88886bos-aps2102-m2-p7_q001",
+      "88886bos-aps2102-m2-p7_q020",
+      "88886bos-aps2102-m2-p7_q021",
+      "88886bos-aps2102-m2-p7_q023",
+      "88886bos-aps2102-m2-p7_q024",
+      "88890bos-aps2102-m2-p11_q003",
+      "88890bos-aps2102-m2-p11_q004",
+      "88890bos-aps2102-m2-p11_q009",
+      "88891bos-aps2102-m2-p12_q006",
+      "88891bos-aps2102-m2-p12_q007",
+      "88892bos-aps2102-m2-p13_q004",
+      "88892bos-aps2102-m2-p13_q005"
+    ],
+    "dev_hard": [
+      "87619bos-aps2102-p5u1_q001",
+      "87619bos-aps2102-p5u1_q006",
+      "87619bos-aps2102-p5u1_q011",
+      "87620bos-aps2102-p5u2_q002",
+      "87620bos-aps2102-p5u2_q005",
+      "87620bos-aps2102-p5u2_q006",
+      "87620bos-aps2102-p5u2_q010",
+      "87620bos-aps2102-p5u2_q011",
+      "87621bos-aps2102-p5u3_q002",
+      "87621bos-aps2102-p5u3_q006",
+      "87622bos-aps2102-p5u4_q003",
+      "87622bos-aps2102-p5u4_q008",
+      "87622bos-aps2102-p5u4_q009",
+      "87622bos-aps2102-p5u4_q010",
+      "87623bos-aps2102-p5u5_q001",
+      "88087bos-aps2102-ch6_q010",
+      "88886bos-aps2102-m2-p7_q010",
+      "88886bos-aps2102-m2-p7_q014",
+      "88886bos-aps2102-m2-p7_q015",
+      "88886bos-aps2102-m2-p7_q018",
+      "88886bos-aps2102-m2-p7_q020",
+      "88886bos-aps2102-m2-p7_q022",
+      "88886bos-aps2102-m2-p7_q023",
+      "88886bos-aps2102-m2-p7_q024",
+      "88887bos-aps2102-m2-p8_q001",
+      "88887bos-aps2102-m2-p8_q002",
+      "88887bos-aps2102-m2-p8_q005",
+      "88887bos-aps2102-m2-p8_q006",
+      "88888bos-aps2102-m2-p9_q003",
+      "88890bos-aps2102-m2-p11_q002",
+      "88890bos-aps2102-m2-p11_q003",
+      "88890bos-aps2102-m2-p11_q009",
+      "88891bos-aps2102-m2-p12_q001",
+      "88891bos-aps2102-m2-p12_q003",
+      "88891bos-aps2102-m2-p12_q008"
+    ],
+    "test_hard": [
+      "87619bos-aps2102-p5u1_q008",
+      "87619bos-aps2102-p5u1_q013",
+      "87619bos-aps2102-p5u1_q014",
+      "87620bos-aps2102-p5u2_q004",
+      "87620bos-aps2102-p5u2_q007",
+      "87620bos-aps2102-p5u2_q008",
+      "87620bos-aps2102-p5u2_q014",
+      "87621bos-aps2102-p5u3_q001",
+      "87621bos-aps2102-p5u3_q004",
+      "87622bos-aps2102-p5u4_q002",
+      "87622bos-aps2102-p5u4_q011",
+      "87622bos-aps2102-p5u4_q012",
+      "87622bos-aps2102-p5u4_q013",
+      "87623bos-aps2102-p5u5_q004",
+      "87623bos-aps2102-p5u5_q006",
+      "87623bos-aps2102-p5u5_q009",
+      "87623bos-aps2102-p5u5_q010",
+      "88087bos-aps2102-ch6_q009",
+      "88087bos-aps2102-ch6_q016",
+      "88886bos-aps2102-m2-p7_q002",
+      "88886bos-aps2102-m2-p7_q008",
+      "88886bos-aps2102-m2-p7_q011",
+      "88886bos-aps2102-m2-p7_q012",
+      "88886bos-aps2102-m2-p7_q016",
+      "88886bos-aps2102-m2-p7_q017",
+      "88886bos-aps2102-m2-p7_q021",
+      "88887bos-aps2102-m2-p8_q003",
+      "88887bos-aps2102-m2-p8_q004",
+      "88888bos-aps2102-m2-p9_q001",
+      "88889bos-aps2102-m2-p10_q005",
+      "88890bos-aps2102-m2-p11_q004",
+      "88890bos-aps2102-m2-p11_q006",
+      "88890bos-aps2102-m2-p11_q007",
+      "88890bos-aps2102-m2-p11_q008",
+      "88892bos-aps2102-m2-p13_q010"
+    ]
+  },
+  "questions": {
+    "88087bos-aps2102-ch6_q004": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 11,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.0
+    },
+    "88087bos-aps2102-ch6_q003": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 15,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 1.0
+    },
+    "88892bos-aps2102-m2-p13_q002": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 16,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 1.0
+    },
+    "88892bos-aps2102-m2-p13_q003": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 18,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.862
+    },
+    "88891bos-aps2102-m2-p12_q002": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 23,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "hard",
+      "observed_recall": 0.172
+    },
+    "88888bos-aps2102-m2-p9_q002": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 24,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.793
+    },
+    "88891bos-aps2102-m2-p12_q004": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 33,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.897
+    },
+    "88889bos-aps2102-m2-p10_q002": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 35,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.966
+    },
+    "88891bos-aps2102-m2-p12_q006": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 45,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.034
+    },
+    "88891bos-aps2102-m2-p12_q007": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 49,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.069
+    },
+    "88892bos-aps2102-m2-p13_q007": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 57,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.931
+    },
+    "88892bos-aps2102-m2-p13_q005": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 58,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.034
+    },
+    "88889bos-aps2102-m2-p10_q004": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 71,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.966
+    },
+    "88891bos-aps2102-m2-p12_q005": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 84,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.931
+    },
+    "87621bos-aps2102-p5u3_q003": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 86,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.931
+    },
+    "88892bos-aps2102-m2-p13_q006": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 92,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.931
+    },
+    "88889bos-aps2102-m2-p10_q006": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 93,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 1.0
+    },
+    "87623bos-aps2102-p5u5_q003": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 96,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.897
+    },
+    "87620bos-aps2102-p5u2_q012": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 100,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 1.0
+    },
+    "88087bos-aps2102-ch6_q011": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 101,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 1.0
+    },
+    "87623bos-aps2102-p5u5_q002": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 102,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.931
+    },
+    "87623bos-aps2102-p5u5_q008": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 104,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.828
+    },
+    "88087bos-aps2102-ch6_q008": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 107,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "hard",
+      "observed_recall": 0.345
+    },
+    "88087bos-aps2102-ch6_q015": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 118,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.897
+    },
+    "88886bos-aps2102-m2-p7_q005": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 118,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "hard",
+      "observed_recall": 0.379
+    },
+    "88886bos-aps2102-m2-p7_q003": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 120,
+      "points": 0,
+      "tier": "easy",
+      "observed_tier": "hard",
+      "observed_recall": 0.103
+    },
+    "87619bos-aps2102-p5u1_q012": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "circular"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 120,
+      "points": 1,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 1.0
+    },
+    "87619bos-aps2102-p5u1_q004": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "circular"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 129,
+      "points": 1,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 1.0
+    },
+    "88890bos-aps2102-m2-p11_q005": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 152,
+      "points": 1,
+      "tier": "easy",
+      "observed_tier": "hard",
+      "observed_recall": 0.31
+    },
+    "87623bos-aps2102-p5u5_q005": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 166,
+      "points": 1,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.862
+    },
+    "88087bos-aps2102-ch6_q013": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 208,
+      "points": 1,
+      "tier": "easy",
+      "observed_tier": "medium",
+      "observed_recall": 0.69
+    },
+    "88087bos-aps2102-ch6_q006": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 214,
+      "points": 1,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.897
+    },
+    "88087bos-aps2102-ch6_q012": {
+      "n_required": 1,
+      "n_instruments": 1,
+      "kinds": [
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 332,
+      "points": 1,
+      "tier": "easy",
+      "observed_tier": "hard",
+      "observed_recall": 0.241
+    },
+    "88892bos-aps2102-m2-p13_q001": {
+      "n_required": 2,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 13,
+      "points": 1,
+      "tier": "easy",
+      "observed_tier": "medium",
+      "observed_recall": 0.5
+    },
+    "88889bos-aps2102-m2-p10_q001": {
+      "n_required": 2,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 34,
+      "points": 1,
+      "tier": "easy",
+      "observed_tier": "easy",
+      "observed_recall": 0.966
+    },
+    "87619bos-aps2102-p5u1_q002": {
+      "n_required": 2,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 46,
+      "points": 1,
+      "tier": "easy",
+      "observed_tier": "medium",
+      "observed_recall": 0.552
+    },
+    "88886bos-aps2102-m2-p7_q009": {
+      "n_required": 2,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 73,
+      "points": 1,
+      "tier": "medium",
+      "observed_tier": "hard",
+      "observed_recall": 0.155
+    },
+    "87619bos-aps2102-p5u1_q007": {
+      "n_required": 2,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 76,
+      "points": 1,
+      "tier": "medium",
+      "observed_tier": "hard",
+      "observed_recall": 0.103
+    },
+    "88087bos-aps2102-ch6_q007": {
+      "n_required": 2,
+      "n_instruments": 1,
+      "kinds": [
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 79,
+      "points": 1,
+      "tier": "medium",
+      "observed_tier": "medium",
+      "observed_recall": 0.431
+    },
+    "87621bos-aps2102-p5u3_q010": {
+      "n_required": 2,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 82,
+      "points": 1,
+      "tier": "medium",
+      "observed_tier": "easy",
+      "observed_recall": 0.862
+    },
+    "87621bos-aps2102-p5u3_q007": {
+      "n_required": 2,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 88,
+      "points": 1,
+      "tier": "medium",
+      "observed_tier": "easy",
+      "observed_recall": 0.931
+    },
+    "87621bos-aps2102-p5u3_q008": {
+      "n_required": 2,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 93,
+      "points": 1,
+      "tier": "medium",
+      "observed_tier": "easy",
+      "observed_recall": 0.966
+    },
+    "88892bos-aps2102-m2-p13_q004": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 12,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.0
+    },
+    "88886bos-aps2102-m2-p7_q006": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 17,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "easy",
+      "observed_recall": 1.0
+    },
+    "88889bos-aps2102-m2-p10_q003": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 42,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "medium",
+      "observed_recall": 0.448
+    },
+    "88892bos-aps2102-m2-p13_q009": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 58,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "medium",
+      "observed_recall": 0.534
+    },
+    "88886bos-aps2102-m2-p7_q004": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 100,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "easy",
+      "observed_recall": 0.914
+    },
+    "88892bos-aps2102-m2-p13_q008": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 114,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "medium",
+      "observed_recall": 0.586
+    },
+    "88087bos-aps2102-ch6_q014": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 119,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "easy",
+      "observed_recall": 0.897
+    },
+    "87619bos-aps2102-p5u1_q003": {
+      "n_required": 2,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 161,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.0
+    },
+    "88087bos-aps2102-ch6_q005": {
+      "n_required": 3,
+      "n_instruments": 1,
+      "kinds": [
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 15,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.0
+    },
+    "88886bos-aps2102-m2-p7_q001": {
+      "n_required": 3,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 56,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.011
+    },
+    "88886bos-aps2102-m2-p7_q007": {
+      "n_required": 3,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 100,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "medium",
+      "observed_recall": 0.621
+    },
+    "87621bos-aps2102-p5u3_q009": {
+      "n_required": 3,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 131,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "easy",
+      "observed_recall": 0.851
+    },
+    "87619bos-aps2102-p5u1_q009": {
+      "n_required": 4,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 84,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "hard",
+      "observed_recall": 0.129
+    },
+    "87619bos-aps2102-p5u1_q005": {
+      "n_required": 4,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 86,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.078
+    },
+    "87619bos-aps2102-p5u1_q010": {
+      "n_required": 4,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 87,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "hard",
+      "observed_recall": 0.138
+    },
+    "87621bos-aps2102-p5u3_q005": {
+      "n_required": 4,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 134,
+      "points": 2,
+      "tier": "medium",
+      "observed_tier": "hard",
+      "observed_recall": 0.198
+    },
+    "87622bos-aps2102-p5u4_q001": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 11,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.034
+    },
+    "88087bos-aps2102-ch6_q001": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "circular"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 24,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "medium",
+      "observed_recall": 0.466
+    },
+    "88087bos-aps2102-ch6_q002": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "circular"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 30,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "medium",
+      "observed_recall": 0.586
+    },
+    "87622bos-aps2102-p5u4_q014": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 53,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "medium",
+      "observed_recall": 0.5
+    },
+    "87622bos-aps2102-p5u4_q005": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 57,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "medium",
+      "observed_recall": 0.534
+    },
+    "87620bos-aps2102-p5u2_q001": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 63,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "hard",
+      "observed_recall": 0.172
+    },
+    "87622bos-aps2102-p5u4_q006": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 75,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "medium",
+      "observed_recall": 0.5
+    },
+    "87620bos-aps2102-p5u2_q009": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 89,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "easy",
+      "observed_recall": 1.0
+    },
+    "87620bos-aps2102-p5u2_q013": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 97,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "easy",
+      "observed_recall": 0.948
+    },
+    "87620bos-aps2102-p5u2_q003": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 131,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "easy",
+      "observed_recall": 1.0
+    },
+    "88886bos-aps2102-m2-p7_q013": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 185,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "hard",
+      "observed_recall": 0.121
+    },
+    "88890bos-aps2102-m2-p11_q001": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 261,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "medium",
+      "observed_recall": 0.672
+    },
+    "88888bos-aps2102-m2-p9_q004": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 271,
+      "points": 3,
+      "tier": "medium",
+      "observed_tier": "easy",
+      "observed_recall": 1.0
+    },
+    "88890bos-aps2102-m2-p11_q009": {
+      "n_required": 3,
+      "n_instruments": 2,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 136,
+      "points": 3,
+      "tier": "hard",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.023
+    },
+    "88087bos-aps2102-ch6_q009": {
+      "n_required": 3,
+      "n_instruments": 2,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 140,
+      "points": 3,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.322
+    },
+    "88886bos-aps2102-m2-p7_q020": {
+      "n_required": 3,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 257,
+      "points": 3,
+      "tier": "hard",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.023
+    },
+    "88890bos-aps2102-m2-p11_q006": {
+      "n_required": 4,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 137,
+      "points": 3,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.224
+    },
+    "88892bos-aps2102-m2-p13_q010": {
+      "n_required": 6,
+      "n_instruments": 1,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 27,
+      "points": 3,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.253
+    },
+    "87622bos-aps2102-p5u4_q008": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 172,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "medium",
+      "observed_recall": 0.483
+    },
+    "87622bos-aps2102-p5u4_q009": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 190,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "medium",
+      "observed_recall": 0.5
+    },
+    "88087bos-aps2102-ch6_q010": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "circular"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 339,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "medium",
+      "observed_recall": 0.655
+    },
+    "87622bos-aps2102-p5u4_q012": {
+      "n_required": 2,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 514,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "medium",
+      "observed_recall": 0.483
+    },
+    "88890bos-aps2102-m2-p11_q003": {
+      "n_required": 3,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 18,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.046
+    },
+    "88888bos-aps2102-m2-p9_q003": {
+      "n_required": 3,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 27,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.322
+    },
+    "87623bos-aps2102-p5u5_q001": {
+      "n_required": 3,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 36,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.264
+    },
+    "88890bos-aps2102-m2-p11_q004": {
+      "n_required": 3,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 62,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.0
+    },
+    "87619bos-aps2102-p5u1_q001": {
+      "n_required": 3,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "circular"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 102,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.356
+    },
+    "87619bos-aps2102-p5u1_q014": {
+      "n_required": 3,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "circular"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 110,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.333
+    },
+    "87620bos-aps2102-p5u2_q010": {
+      "n_required": 3,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 130,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.333
+    },
+    "88890bos-aps2102-m2-p11_q007": {
+      "n_required": 4,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 86,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "medium",
+      "observed_recall": 0.474
+    },
+    "87619bos-aps2102-p5u1_q006": {
+      "n_required": 4,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "circular"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 130,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.095
+    },
+    "88890bos-aps2102-m2-p11_q002": {
+      "n_required": 4,
+      "n_instruments": 2,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 152,
+      "points": 4,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.233
+    },
+    "87622bos-aps2102-p5u4_q002": {
+      "n_required": 3,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "circular",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 31,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.333
+    },
+    "87621bos-aps2102-p5u3_q002": {
+      "n_required": 3,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 91,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.356
+    },
+    "87620bos-aps2102-p5u2_q008": {
+      "n_required": 3,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 113,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "medium",
+      "observed_recall": 0.506
+    },
+    "87620bos-aps2102-p5u2_q004": {
+      "n_required": 3,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 131,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.368
+    },
+    "87623bos-aps2102-p5u5_q004": {
+      "n_required": 3,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 193,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.31
+    },
+    "87623bos-aps2102-p5u5_q010": {
+      "n_required": 3,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 307,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.322
+    },
+    "88891bos-aps2102-m2-p12_q003": {
+      "n_required": 4,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 13,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.25
+    },
+    "87623bos-aps2102-p5u5_q006": {
+      "n_required": 4,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 69,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.241
+    },
+    "88889bos-aps2102-m2-p10_q005": {
+      "n_required": 4,
+      "n_instruments": 4,
+      "kinds": [
+        "act",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 95,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.25
+    },
+    "87620bos-aps2102-p5u2_q007": {
+      "n_required": 4,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 133,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "medium",
+      "observed_recall": 0.517
+    },
+    "88886bos-aps2102-m2-p7_q002": {
+      "n_required": 5,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "circular"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 64,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.2
+    },
+    "88886bos-aps2102-m2-p7_q008": {
+      "n_required": 5,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 129,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.103
+    },
+    "88891bos-aps2102-m2-p12_q001": {
+      "n_required": 5,
+      "n_instruments": 2,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 525,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.193
+    },
+    "88886bos-aps2102-m2-p7_q022": {
+      "n_required": 6,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 296,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.339
+    },
+    "87621bos-aps2102-p5u3_q006": {
+      "n_required": 7,
+      "n_instruments": 2,
+      "kinds": [
+        "act",
+        "circular"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 113,
+      "points": 5,
+      "tier": "hard",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.039
+    },
+    "88886bos-aps2102-m2-p7_q010": {
+      "n_required": 3,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 158,
+      "points": 6,
+      "tier": "hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.299
+    },
+    "87620bos-aps2102-p5u2_q011": {
+      "n_required": 4,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 267,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.216
+    },
+    "87622bos-aps2102-p5u4_q013": {
+      "n_required": 4,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 318,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.267
+    },
+    "87621bos-aps2102-p5u3_q001": {
+      "n_required": 5,
+      "n_instruments": 4,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 39,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.345
+    },
+    "88891bos-aps2102-m2-p12_q008": {
+      "n_required": 5,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 42,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.2
+    },
+    "87619bos-aps2102-p5u1_q008": {
+      "n_required": 5,
+      "n_instruments": 4,
+      "kinds": [
+        "act",
+        "circular"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 53,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.2
+    },
+    "87620bos-aps2102-p5u2_q014": {
+      "n_required": 5,
+      "n_instruments": 4,
+      "kinds": [
+        "act",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 126,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "medium",
+      "observed_recall": 0.51
+    },
+    "88888bos-aps2102-m2-p9_q001": {
+      "n_required": 6,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 34,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.138
+    },
+    "88887bos-aps2102-m2-p8_q004": {
+      "n_required": 6,
+      "n_instruments": 4,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 142,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.305
+    },
+    "87620bos-aps2102-p5u2_q002": {
+      "n_required": 7,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "circular",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 102,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.167
+    },
+    "87619bos-aps2102-p5u1_q011": {
+      "n_required": 7,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "circular",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 131,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.182
+    },
+    "88886bos-aps2102-m2-p7_q014": {
+      "n_required": 7,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 284,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.138
+    },
+    "88886bos-aps2102-m2-p7_q024": {
+      "n_required": 9,
+      "n_instruments": 2,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 380,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.004
+    },
+    "88886bos-aps2102-m2-p7_q023": {
+      "n_required": 15,
+      "n_instruments": 2,
+      "kinds": [
+        "act"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 459,
+      "points": 6,
+      "tier": "very_hard",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.014
+    },
+    "87623bos-aps2102-p5u5_q009": {
+      "n_required": 5,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "circular",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 165,
+      "points": 7,
+      "tier": "very_hard",
+      "observed_tier": "medium",
+      "observed_recall": 0.49
+    },
+    "88887bos-aps2102-m2-p8_q006": {
+      "n_required": 5,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 178,
+      "points": 7,
+      "tier": "very_hard",
+      "observed_tier": "medium",
+      "observed_recall": 0.717
+    },
+    "88886bos-aps2102-m2-p7_q012": {
+      "n_required": 5,
+      "n_instruments": 4,
+      "kinds": [
+        "act",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 185,
+      "points": 7,
+      "tier": "very_hard",
+      "observed_tier": "medium",
+      "observed_recall": 0.434
+    },
+    "87622bos-aps2102-p5u4_q003": {
+      "n_required": 5,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "circular",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 317,
+      "points": 7,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.352
+    },
+    "88886bos-aps2102-m2-p7_q016": {
+      "n_required": 5,
+      "n_instruments": 4,
+      "kinds": [
+        "act",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 424,
+      "points": 7,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.352
+    },
+    "87622bos-aps2102-p5u4_q011": {
+      "n_required": 6,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 200,
+      "points": 7,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.305
+    },
+    "87620bos-aps2102-p5u2_q005": {
+      "n_required": 6,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 261,
+      "points": 7,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.305
+    },
+    "87619bos-aps2102-p5u1_q013": {
+      "n_required": 6,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "circular",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 375,
+      "points": 7,
+      "tier": "very_hard",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.098
+    },
+    "87621bos-aps2102-p5u3_q004": {
+      "n_required": 7,
+      "n_instruments": 4,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 166,
+      "points": 7,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.271
+    },
+    "88887bos-aps2102-m2-p8_q002": {
+      "n_required": 7,
+      "n_instruments": 4,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 196,
+      "points": 7,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.389
+    },
+    "87620bos-aps2102-p5u2_q006": {
+      "n_required": 7,
+      "n_instruments": 5,
+      "kinds": [
+        "act",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 467,
+      "points": 7,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.266
+    },
+    "88087bos-aps2102-ch6_q016": {
+      "n_required": 10,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "rules"
+      ],
+      "needs_notification_or_circular": false,
+      "question_words": 611,
+      "points": 7,
+      "tier": "very_hard",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.024
+    },
+    "88886bos-aps2102-m2-p7_q011": {
+      "n_required": 8,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 206,
+      "points": 8,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.25
+    },
+    "87622bos-aps2102-p5u4_q010": {
+      "n_required": 8,
+      "n_instruments": 3,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 207,
+      "points": 8,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.263
+    },
+    "88887bos-aps2102-m2-p8_q003": {
+      "n_required": 8,
+      "n_instruments": 5,
+      "kinds": [
+        "act",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 254,
+      "points": 8,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.315
+    },
+    "88887bos-aps2102-m2-p8_q001": {
+      "n_required": 8,
+      "n_instruments": 5,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 256,
+      "points": 8,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.375
+    },
+    "88886bos-aps2102-m2-p7_q018": {
+      "n_required": 8,
+      "n_instruments": 5,
+      "kinds": [
+        "act",
+        "circular",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 417,
+      "points": 8,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.168
+    },
+    "88886bos-aps2102-m2-p7_q015": {
+      "n_required": 8,
+      "n_instruments": 5,
+      "kinds": [
+        "act",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 524,
+      "points": 8,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.224
+    },
+    "88887bos-aps2102-m2-p8_q005": {
+      "n_required": 12,
+      "n_instruments": 5,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 170,
+      "points": 8,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.152
+    },
+    "88890bos-aps2102-m2-p11_q008": {
+      "n_required": 13,
+      "n_instruments": 4,
+      "kinds": [
+        "act",
+        "notification"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 387,
+      "points": 8,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.114
+    },
+    "88886bos-aps2102-m2-p7_q017": {
+      "n_required": 13,
+      "n_instruments": 6,
+      "kinds": [
+        "act",
+        "circular",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 506,
+      "points": 8,
+      "tier": "very_hard",
+      "observed_tier": "hard",
+      "observed_recall": 0.164
+    },
+    "88886bos-aps2102-m2-p7_q021": {
+      "n_required": 20,
+      "n_instruments": 5,
+      "kinds": [
+        "act",
+        "notification",
+        "rules"
+      ],
+      "needs_notification_or_circular": true,
+      "question_words": 630,
+      "points": 8,
+      "tier": "very_hard",
+      "observed_tier": "very_hard",
+      "observed_recall": 0.05
+    }
+  }
+}

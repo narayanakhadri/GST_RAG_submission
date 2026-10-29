@@ -1,0 +1,164 @@
+[
+ {
+  "id": "research_approach",
+  "file": "eval\\results\\thesis\\figures\\thesis\\research_approach.png",
+  "caption": "Research approach: from data collection to staged evaluation",
+  "chapter": "3"
+ },
+ {
+  "id": "evaluation_framework",
+  "file": "eval\\results\\thesis\\figures\\thesis\\evaluation_framework.png",
+  "caption": "Evaluation framework: how each technique is measured and admitted",
+  "chapter": "3"
+ },
+ {
+  "id": "baseline_pipeline",
+  "file": "eval\\results\\thesis\\figures\\thesis\\baseline_pipeline.png",
+  "caption": "Baseline retrieval pipeline (hybrid dense + TF-IDF with RRF)",
+  "chapter": "3"
+ },
+ {
+  "id": "system_architecture",
+  "file": "eval\\results\\thesis\\figures\\thesis\\system_architecture.png",
+  "caption": "System architecture: request flow through the FastAPI service",
+  "chapter": "4"
+ },
+ {
+  "id": "corpus_pipeline",
+  "file": "eval\\results\\thesis\\figures\\thesis\\corpus_pipeline.png",
+  "caption": "Corpus construction pipeline (scripts/gst_pipeline/)",
+  "chapter": "4"
+ },
+ {
+  "id": "final_pipeline",
+  "file": "eval\\results\\thesis\\figures\\thesis\\final_pipeline.png",
+  "caption": "Final retrieval and answer pipeline (E17 + T31)",
+  "chapter": "4"
+ },
+ {
+  "id": "corpus_by_instrument",
+  "file": "eval\\results\\thesis\\figures\\thesis\\corpus_by_instrument.png",
+  "caption": "Corpus records by instrument, coloured by document type",
+  "chapter": "4"
+ },
+ {
+  "id": "corpus_by_type",
+  "file": "eval\\results\\thesis\\figures\\thesis\\corpus_by_type.png",
+  "caption": "Corpus records by document type and by segmentation unit",
+  "chapter": "4"
+ },
+ {
+  "id": "record_length",
+  "file": "eval\\results\\thesis\\figures\\thesis\\record_length.png",
+  "caption": "Length of corpus records (words) by document type",
+  "chapter": "4"
+ },
+ {
+  "id": "enrichment_length",
+  "file": "eval\\results\\thesis\\figures\\thesis\\enrichment_length.png",
+  "caption": "Effect of LLM enrichment on the length of the embedded text",
+  "chapter": "4"
+ },
+ {
+  "id": "cross_references",
+  "file": "eval\\results\\thesis\\figures\\thesis\\cross_references.png",
+  "caption": "Explicit cross-references per corpus record (basis of the provision graph)",
+  "chapter": "4"
+ },
+ {
+  "id": "question_length",
+  "file": "eval\\results\\thesis\\figures\\thesis\\question_length.png",
+  "caption": "Length of the ICAI evaluation questions",
+  "chapter": "4"
+ },
+ {
+  "id": "gold_sources",
+  "file": "eval\\results\\thesis\\figures\\thesis\\gold_sources.png",
+  "caption": "Gold (required) sources per question and their document types",
+  "chapter": "4"
+ },
+ {
+  "id": "difficulty_tiers",
+  "file": "eval\\results\\thesis\\figures\\thesis\\difficulty_tiers.png",
+  "caption": "Questions by difficulty tier and by the kind of law they need",
+  "chapter": "4"
+ },
+ {
+  "id": "question_sources",
+  "file": "eval\\results\\thesis\\figures\\thesis\\question_sources.png",
+  "caption": "Evaluation questions by ICAI study-material unit",
+  "chapter": "4"
+ },
+ {
+  "id": "retrieval_ablation",
+  "file": "eval\\results\\thesis\\figures\\retrieval_ablation.png",
+  "chapter": "5",
+  "caption": "Required-law recall and MRR of every retrieval configuration (141 questions)"
+ },
+ {
+  "id": "doc_type_share",
+  "file": "eval\\results\\thesis\\figures\\doc_type_share.png",
+  "chapter": "5",
+  "caption": "Document types of the gold law and of the retrieved top 5"
+ },
+ {
+  "id": "progression",
+  "file": "eval\\results\\thesis\\figures\\thesis\\progression.png",
+  "caption": "Step-by-step improvement from the baseline to the final system",
+  "chapter": "5"
+ },
+ {
+  "id": "forest_vs_baseline",
+  "file": "eval\\results\\thesis\\figures\\thesis\\forest_vs_baseline.png",
+  "caption": "Change in required-law recall against the baseline, paired, with 95% bootstrap CI",
+  "chapter": "5"
+ },
+ {
+  "id": "forest_techniques_dev_hard",
+  "file": "eval\\results\\thesis\\figures\\thesis\\forest_techniques_dev_hard.png",
+  "caption": "Techniques on top of E17, dev_hard (35 questions): change in required-law recall, 95% CI",
+  "chapter": "5"
+ },
+ {
+  "id": "forest_techniques_test_hard",
+  "file": "eval\\results\\thesis\\figures\\thesis\\forest_techniques_test_hard.png",
+  "caption": "Techniques on top of E17, test_hard (35 questions): change in required-law recall, 95% CI",
+  "chapter": "5"
+ },
+ {
+  "id": "recall_by_tier",
+  "file": "eval\\results\\thesis\\figures\\thesis\\recall_by_tier.png",
+  "caption": "Required-law recall by question difficulty tier",
+  "chapter": "5"
+ },
+ {
+  "id": "error_taxonomy",
+  "file": "eval\\results\\thesis\\figures\\thesis\\error_taxonomy.png",
+  "caption": "Error analysis: why the baseline top 5 misses required law",
+  "chapter": "5"
+ },
+ {
+  "id": "recall_at_k",
+  "file": "eval\\results\\thesis\\figures\\thesis\\recall_at_k.png",
+  "caption": "Required-law recall at k over the 20-candidate pool (E17 ranking)",
+  "chapter": "5"
+ },
+ {
+  "id": "t34_recall",
+  "file": "eval\\results\\thesis\\figures\\thesis\\t34_recall.png",
+  "caption": "T34 missing-law check: retrieval gain against the final system and a control",
+  "chapter": "5"
+ },
+ {
+  "id": "judge_agreement",
+  "file": "eval\\results\\thesis\\figures\\thesis\\judge_agreement.png",
+  "caption": "Two LLM judges scoring the same baseline answers",
+  "chapter": "5"
+ },
+ {
+  "id": "amount_match",
+  "file": "eval\\results\\thesis\\figures\\thesis\\amount_match.png",
+  "caption": "Deterministic final-amount check, overall and split by the expert's verdict",
+  "chapter": "5"
+ }
+]

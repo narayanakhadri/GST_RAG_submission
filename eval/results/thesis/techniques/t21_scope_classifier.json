@@ -1,0 +1,9 @@
+{
+ "gst_questions": 146,
+ "out_of_scope": 20,
+ "gst_wrongly_refused": 1,
+ "out_of_scope_wrongly_answered": 0,
+ "accuracy": 0.994,
+ "combined_gst_wrongly_refused": 2,
+ "combined_out_of_scope_wrongly_answered": 0
+}

@@ -1,0 +1,346 @@
+[
+ {
+  "run": "20261019T192519Z_gst_e12b_embedded_dev_hard.json",
+  "answers": 35,
+  "citations": 118,
+  "citations_per_answer": 3.37,
+  "in_context_rate": 0.839,
+  "entailment_share": 0.051,
+  "neutral_share": 0.72,
+  "contradiction_share": 0.229,
+  "contradicted": [
+   {
+    "id": "87619bos-aps2102-p5u1_q011",
+    "citation": "notification_9_2017_it_rate",
+    "sentence": "Notification No. 9/2017-Integrated Tax (Rate), Entry 13]."
+   },
+   {
+    "id": "87620bos-aps2102-p5u2_q002",
+    "citation": "cgst_act_2017.schedule.3",
+    "sentence": "Under Schedule III of the CGST Act, this is neither a supply of goods nor a supply of services and is therefore not taxable [Circular No. 140/10/2020-GST, Para 5.3].\n\n2. **Sitting Fee (\u20b9 25,000):** If the director is not an employee of the company, the remuneration is taxable."
+   },
+   {
+    "id": "87620bos-aps2102-p5u2_q002",
+    "citation": "circular_140_10_2020_gst",
+    "sentence": "Under Schedule III of the CGST Act, this is neither a supply of goods nor a supply of services and is therefore not taxable [Circular No. 140/10/2020-GST, Para 5.3].\n\n2. **Sitting Fee (\u20b9 25,000):** If the director is not an employee of the company, the remuneration is taxable."
+   },
+   {
+    "id": "87620bos-aps2102-p5u2_q006",
+    "citation": "cgst_rules_2017.rule.7",
+    "sentence": "According to Section 10(1) and Rule 7 of the CGST Rules, 2017, the tax rate for 'other suppliers' (who are not manufacturers or restaurant service providers) is 0.5% CGST and 0.5% SGST on the turnover of taxable supplies of goods and services.\n\n**1."
+   },
+   {
+    "id": "87620bos-aps2102-p5u2_q006",
+    "citation": "cgst_rules_2017.rule.7",
+    "sentence": "GST Liability Calculation:**\n- **Composition Tax:** As per Rule 7, the rate is 0.5% CGST and 0.5% SGST on the turnover of taxable supplies. \n  - Q1 Liability: \u20b960,00,000 * 0.5% = \u20b930,000 (CGST) and \u20b930,000 (SGST).\n  - Q2 Liability: \u20b950,00,000 * 0.5% = \u20b925,000 (CGST) and \u20b925,000 (SGST).\n- **GTA Servi"
+   },
+   {
+    "id": "87620bos-aps2102-p5u2_q006",
+    "citation": "cgst_act_2017.section.10",
+    "sentence": "GST Liability Calculation:**\n- **Composition Tax:** As per Rule 7, the rate is 0.5% CGST and 0.5% SGST on the turnover of taxable supplies. \n  - Q1 Liability: \u20b960,00,000 * 0.5% = \u20b930,000 (CGST) and \u20b930,000 (SGST).\n  - Q2 Liability: \u20b950,00,000 * 0.5% = \u20b925,000 (CGST) and \u20b925,000 (SGST).\n- **GTA Servi"
+   },
+   {
+    "id": "87621bos-aps2102-p5u3_q002",
+    "citation": "cgst_act_2017.section.13",
+    "sentence": "Therefore, the place of supply is Mumbai (the location of Damani Industries).\n\n2. **Event in Dubai:** If the event is organized in Dubai (outside India), Section 13(5) applies."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q003",
+    "citation": "notification_12_2017_ct_rate",
+    "sentence": "While healthcare services provided by a clinical establishment are exempt from GST under Entry 74 of Notification No. 12/2017-Central Tax (Rate), the taxability of food supplies depends on the recipient of the service."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q003",
+    "citation": "circular_32_06_2018_gst",
+    "sentence": "According to Circular No. 32/06/2018-GST, food supplied to in-patients as advised by a doctor or nutritionist is considered part of a composite supply of healthcare and is not separately taxable."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q009",
+    "citation": "notification_12_2017_ct_rate",
+    "sentence": "Based on the provided statutory text, the GST liability for Sarva Sugam Charitable Trust is calculated as follows:\n\n1. **Renting of residential dwelling for use as residence (\u20b918,00,000):** This is exempt from GST under Notification No. 12/2017-Central Tax (Rate), Entry 12."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q009",
+    "citation": "notification_12_2017_ct_rate",
+    "sentence": "Liability: Nil.\n\n2. **Renting of rooms (\u20b96,00,000):** Since the charges are \u20b9750 per day (below the \u20b91,000 threshold), this service is exempt under Notification No. 12/2017-Central Tax (Rate), Entry 13."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q009",
+    "citation": "notification_12_2017_ct_rate",
+    "sentence": "Liability: \u20b92,16,000.\n\n4. **Renting of community halls and open space (\u20b910,75,000):** Since the charges are \u20b97,500 per day (below the \u20b910,000 threshold), this service is exempt under Notification No. 12/2017-Central Tax (Rate), Entry 13."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q010",
+    "citation": "notification_9_2017_it_rate",
+    "sentence": "Nagarjun's activities is determined as follows:\n\n1. **Services to Foreign Diplomatic Mission (\u20b9 28,000):** Under Entry 62 of Notification No. 9/2017-Integrated Tax (Rate), services provided by a foreign diplomatic mission located in India are exempt from tax (Nil rate)."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q010",
+    "citation": "notification_10_2017_it_rate",
+    "sentence": "At 18%, the tax is \u20b9 28,800.\n\n3. **GTA Services (Freight \u20b9 45,000):** Under Notification No. 10/2017-Integrated Tax (Rate), Entry 2, services provided by a Goods Transport Agency (GTA) to a person registered under the GST Act are subject to the reverse charge mechanism."
+   },
+   {
+    "id": "88087bos-aps2102-ch6_q010",
+    "citation": "cgst_act_2017.section.15",
+    "sentence": "Discounts are excluded from the value of supply only if they are recorded in the invoice at the time of supply, or if they are post-supply discounts where a credit note is issued and the recipient reverses the attributable input tax credit (ITC) [Section 15(3)].\n\n**Quarter April-June:**\n- Base Price"
+   },
+   {
+    "id": "88087bos-aps2102-ch6_q010",
+    "citation": "cgst_act_2017.section.15",
+    "sentence": "Thus, the taxable value remains \u20b9 72,00,000.\n\n**Quarter July-September:**\n- Base Price: \u20b9 8,400 per television.\n- Packing Charges: \u20b9 1,200 per television.\n- Total Value per unit: \u20b9 9,600.\n- Total Value for 1,000 televisions: \u20b9 96,00,000.\n- Regarding the 10% discount: Since Shah Electronics reversed "
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q014",
+    "citation": "cgst_act_2017.section.18",
+    "sentence": "ITC: \u20b99,000 (IGST).\n5. **Capital Goods (12th Sept):** **Ineligible.** Section 18(1)(b) only permits ITC on inputs held in stock and inputs contained in semi-finished/finished goods."
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q018",
+    "citation": "cgst_act_2017.section.17",
+    "sentence": "Input Tax Credit (ITC) credited to Electronic Credit Ledger:**\nITC is available for business purposes, excluding blocked credits under Section 17(5). \n- **Blocked Credits:** Health insurance for employees (Section 17(5)(b)) is blocked unless obligatory under law (not stated here)."
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q018",
+    "citation": "cgst_rules_2017.rule.42",
+    "sentence": "ITC attributable towards exempt supplies:**\nUnder Section 17(2) and Rule 42, credit is restricted to the portion attributable to taxable supplies."
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q022",
+    "citation": "cgst_act_2017.section.17",
+    "sentence": "Under Section 17(5)(b), ITC on health insurance is available where it is obligatory for an employer to provide the same to its employees under any law for the time being in force (e.g., Factories Act, 1948).\n2. **Raw Materials (\u20b918,000):** Not eligible for the current period."
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q022",
+    "citation": "cgst_act_2017.section.17",
+    "sentence": "Section 17(5)(c) blocks works contract services for construction of immovable property, but excludes 'plant and machinery'."
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q023",
+    "citation": "cgst_act_2017.section.17",
+    "sentence": "ITC Available for the Tax Period:**\nUnder Section 16 of the CGST Act, 2017, a registered person is entitled to take credit of input tax charged on supplies used in the course or furtherance of business. \n- **Eligible Inputs/Services:** ITC is available on raw materials from registered suppliers (Raj"
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q024",
+    "citation": "cgst_act_2017.section.17",
+    "sentence": "Input Tax Credit (ITC) Eligibility:**\n- **Foundation for machinery:** Eligible (as it is for plant and machinery, which is excluded from the block under Section 17(5)(c))."
+   },
+   {
+    "id": "88887bos-aps2102-m2-p8_q001",
+    "citation": "cgst_act_2017.section.24",
+    "sentence": "Under Section 24(i) of the CGST Act, any person making inter-State taxable supply is required to take compulsory registration, notwithstanding the turnover thresholds mentioned in Section 22(1)."
+   },
+   {
+    "id": "88888bos-aps2102-m2-p9_q003",
+    "citation": "cgst_act_2017.section.31",
+    "sentence": "(iii) **Continuous supply of services (due date not ascertainable):** For continuous supply of services where the due date of payment is not ascertainable from the contract, the invoice must be issued before or at the time when the supplier of the service receives the payment [The Central Goods and "
+   },
+   {
+    "id": "88890bos-aps2102-m2-p11_q002",
+    "citation": "cgst_act_2017.section.8",
+    "sentence": "Supply from A (Karnataka) to B (Karnataka):**\nThis is an intra-State supply [The Integrated Goods and Services Tax Act, 2017, Section 8].\n- Value: \u20b9 50,000\n- CGST (9%): \u20b9 4,500 (Central Government)\n- SGST (9%): \u20b9 4,500 (Karnataka State Government)\n- Net tax payable in cash: \u20b9 9,000 (as A has no inpu"
+   },
+   {
+    "id": "88891bos-aps2102-m2-p12_q008",
+    "citation": "cgst_act_2017.section.22",
+    "sentence": "Ltd. has a turnover of \u20b918 lakh, it is not currently liable for registration under section 22(1)."
+   }
+  ]
+ },
+ {
+  "run": "20261019T194035Z_gst_e12b_lawsum_dev_hard.json",
+  "answers": 35,
+  "citations": 135,
+  "citations_per_answer": 3.86,
+  "in_context_rate": 0.911,
+  "entailment_share": 0.059,
+  "neutral_share": 0.667,
+  "contradiction_share": 0.274,
+  "contradicted": [
+   {
+    "id": "87619bos-aps2102-p5u1_q011",
+    "citation": "notification_12_2017_ct_rate",
+    "sentence": "(ii) **Monthly Rent:** The renting of a residential dwelling for use as a residence is exempt from GST [Notification No. 12/2017-Central Tax (Rate), Entry 12;"
+   },
+   {
+    "id": "87619bos-aps2102-p5u1_q011",
+    "citation": "notification_9_2017_it_rate",
+    "sentence": "Notification No. 9/2017-Integrated Tax (Rate), Entry 13]."
+   },
+   {
+    "id": "87620bos-aps2102-p5u2_q005",
+    "citation": "notification_14_2019_ct",
+    "sentence": "Their preceding year turnover (\u20b9 125 lakh) is within the \u20b9 150 lakh limit [Section 10(1), Notification No. 14/2019]."
+   },
+   {
+    "id": "87620bos-aps2102-p5u2_q005",
+    "citation": "cgst_act_2017.schedule.2",
+    "sentence": "As a restaurant service provider (Schedule II, paragraph 6(b)), they qualify under Section 10(1)."
+   },
+   {
+    "id": "87620bos-aps2102-p5u2_q005",
+    "citation": "cgst_act_2017.section.10",
+    "sentence": "However, since their turnover exceeds \u20b9 50 lakh, they would generally need to qualify under Section 10(1)."
+   },
+   {
+    "id": "87620bos-aps2102-p5u2_q010",
+    "citation": "cgst_act_2017.section.10",
+    "sentence": "Under the CGST Rules, 2017, a registered person opting for the composition levy under section 10 must pay tax based on their category as specified in Rule 7."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q003",
+    "citation": "notification_12_2017_ct_rate",
+    "sentence": "Under GST law, healthcare services provided by a clinical establishment are exempt [Notification No. 12/2017-Central Tax (Rate), Entry 74]."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q003",
+    "citation": "circular_32_06_2018_gst",
+    "sentence": "Food supplied to in-patients, when advised by a doctor or nutritionist, is considered part of a composite supply of healthcare services and is exempt from GST [Circular No. 32/06/2018-GST]."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q008",
+    "citation": "notification_12_2017_ct_rate",
+    "sentence": "However, this exemption does not apply to institutions providing services by way of pre-school education and education up to higher secondary school or equivalent [Notification No. 12/2017-Central Tax (Rate), Entry 66]."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q009",
+    "citation": "notification_12_2017_ct_rate",
+    "sentence": "Based on the provided notifications, the GST liability for Sarva Sugam Charitable Trust is calculated as follows:\n\n1. **Renting of residential dwelling for use as residence (\u20b918,00,000):** Exempt under Notification No. 12/2017-Central Tax (Rate), Entry 12."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q009",
+    "citation": "notification_12_2017_ct_rate",
+    "sentence": "GST liability: Nil.\n\n3. **Renting of kalyanamandapam (\u20b912,00,000):** As the charges are \u20b915,000 per day (exceeding the \u20b910,000 threshold), this is taxable under Notification No. 12/2017-Central Tax (Rate), Entry 13."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q009",
+    "citation": "notification_12_2017_ct_rate",
+    "sentence": "GST @ 18% = \u20b92,16,000.\n\n4. **Renting of community halls and open space (\u20b910,75,000):** Since the charges are \u20b97,500 per day (below the \u20b910,000 threshold), this is exempt under Notification No. 12/2017-Central Tax (Rate), Entry 13."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q009",
+    "citation": "notification_12_2017_ct_rate",
+    "sentence": "GST liability: Nil.\n\n6. **Renting of shops for business (\u20b97,50,000):** Since the charges are \u20b912,000 per month (exceeding the \u20b910,000 threshold), this is taxable under Notification No. 12/2017-Central Tax (Rate), Entry 13."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q010",
+    "citation": "notification_9_2017_it_rate",
+    "sentence": "Notification No. 9/2017-Integrated Tax (Rate), Entry 62]."
+   },
+   {
+    "id": "87622bos-aps2102-p5u4_q010",
+    "citation": "notification_13_2017_ct_rate",
+    "sentence": "Nagarjun (items i, ii, iii, and v) are not covered by the provided exemption notifications and are therefore taxable at the rate of 18%. \n   - Total Taxable Value = \u20b9 50,000 + \u20b9 65,000 + \u20b9 15,000 + \u20b9 30,000 = \u20b9 1,60,000.\n   - GST Liability = 18% of \u20b9 1,60,000 = \u20b9 28,800.\n\n3. **GTA Services:** Regard"
+   },
+   {
+    "id": "87623bos-aps2102-p5u5_q001",
+    "citation": "cgst_act_2017.section.31",
+    "sentence": "The date of issue of the invoice by the supplier (or the last date on which the supplier is required to issue the invoice under Section 31).\n2."
+   },
+   {
+    "id": "88087bos-aps2102-ch6_q010",
+    "citation": "cgst_act_2017.section.15",
+    "sentence": "Discounts are excluded from the taxable value if they are recorded on the invoice (at the time of supply) or if a credit note is issued and the recipient reverses the attributable Input Tax Credit (ITC) [Section 15(3)].\n\n**Quarter April-June:**\n- Base Price: \u20b9 8,400\n- Packing Charges: \u20b9 1,200\n- Valu"
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q010",
+    "citation": "cgst_rules_2017.rule.43",
+    "sentence": "Based on the provisions of Rule 43 of the Central Goods and Services Tax Rules, 2017, the input tax credit (ITC) is determined as follows:\n\n1. **ITC Credited to Electronic Credit Ledger:**\n   - Capital goods used exclusively for taxable supplies: \u20b92,000 (credited in full per Rule 43(1)(b)).\n   - Cap"
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q014",
+    "citation": "cgst_act_2017.section.18",
+    "sentence": "Since the invoice date is 19th Sept last year, it is within the one-year limit as of 24th Sept (Eligible).\n4. **Inputs (13th Sept):** IGST \u20b99,000 (Eligible).\n5. **Capital Goods (12th Sept):** Section 18(1)(b) only permits ITC on inputs held in stock and inputs contained in semi-finished/finished goo"
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q014",
+    "citation": "cgst_act_2017.section.18",
+    "sentence": "ITC on capital goods is not available under this specific clause [The Central Goods and Services Tax Act, 2017, Section 18(1)(b)].\n\n**Total ITC Available:**\n- CGST: \u20b94,500 + \u20b97,500 = \u20b912,000\n- SGST: \u20b94,500 + \u20b97,500 = \u20b912,000\n- IGST: \u20b936,000 + \u20b99,000 = \u20b945,000\n\n**Net Tax Payable:**\n- Liability: CGST "
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q018",
+    "citation": "cgst_act_2017.section.17",
+    "sentence": "Input Tax Credit (ITC) Credited to Electronic Credit Ledger:**\n- **Eligible ITC:** ITC is available on taxable purchases (\u20b945,00,000 @ 12% = \u20b95,40,000), shop rent (\u20b93,50,000 @ 12% = \u20b942,000), landline bills (\u20b930,000 @ 12% = \u20b93,600), audit fees (\u20b960,000 @ 12% = \u20b97,200), and GTA services for taxable g"
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q018",
+    "citation": "cgst_act_2017.section.17",
+    "sentence": "Mobile phone bills for employees are generally considered personal consumption (Section 17(5)(g)).\n- **Total Eligible ITC:** \u20b95,40,000 + \u20b942,000 + \u20b93,600 + \u20b97,200 + \u20b97,500 = **\u20b96,00,300**.\n\n**2."
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q018",
+    "citation": "cgst_act_2017.section.17",
+    "sentence": "ITC Attributable Towards Exempt Supplies:**\nUnder Section 17(2) and Rule 42, common credit must be apportioned."
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q020",
+    "citation": "cgst_act_2017.section.8",
+    "sentence": "As per Section 8(a) of the CGST Act, 2017, the tax liability is determined based on the principal supply."
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q022",
+    "citation": "cgst_act_2017.section.17",
+    "sentence": "Since only 50% of the materials were received, only 50% of the tax paid (\u20b99,000) is eligible for credit in this period.\n2. **Health Insurance:** While health insurance is generally blocked, the proviso to Section 17(5)(b) allows credit if it is obligatory for an employer to provide the same under an"
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q024",
+    "citation": "cgst_act_2017.section.17",
+    "sentence": "ITC Eligibility:**\n- Works contract for foundation (Plant and Machinery): Eligible under Section 17(5) as it is for plant and machinery.\n- Home travel facility: Blocked under Section 17(5)(b)(iii).\n- Fitness center services: Blocked under Section 17(5)(b)(ii)."
+   },
+   {
+    "id": "88886bos-aps2102-m2-p7_q024",
+    "citation": "cgst_act_2017.section.49a",
+    "sentence": "Then, utilize CGST and SGST credit against IGST liability as per Section 49A. \n- Total credit available (CGST + SGST) = \u20b9 50,000. \n- Net IGST payable = \u20b9 1,88,100 - \u20b9 50,000 = \u20b9 1,38,100."
+   },
+   {
+    "id": "88887bos-aps2102-m2-p8_q001",
+    "citation": "cgst_act_2017.section.22",
+    "sentence": "By supplying services, the entity no longer qualifies for the 40 lakh threshold and would be subject to the standard threshold of 20 lakh rupees (or 10 lakh rupees if the State is a special category State) as per Section 22(1).\n\n**(c) Taxable supply of goods from Himachal Pradesh with inter-State su"
+   },
+   {
+    "id": "88887bos-aps2102-m2-p8_q001",
+    "citation": "cgst_act_2017.section.24",
+    "sentence": "Even if the aggregate turnover is below the threshold, Section 24(i) of the CGST Act mandates compulsory registration for any person making an inter-State taxable supply of goods."
+   },
+   {
+    "id": "88887bos-aps2102-m2-p8_q005",
+    "citation": "cgst_act_2017.section.2",
+    "sentence": "However, aggregate turnover includes all supplies made by the taxable person [Section 2(6) of the CGST Act].\n2. **Supply of goods after job work (\u20b93,00,000):** Per Section 2(6)(ii) of the CGST Act, the supply of goods after completion of job work by a registered job worker is treated as the supply o"
+   },
+   {
+    "id": "88888bos-aps2102-m2-p9_q003",
+    "citation": "cgst_act_2017.section.31",
+    "sentence": "Under the CGST Act, 2017, the provisions for these specific circumstances are as follows:\n\n(i) **Advance payment received but no supply made:** If a registered person receives an advance payment and issues a receipt voucher, but subsequently no supply is made and no tax invoice is issued, the person"
+   },
+   {
+    "id": "88888bos-aps2102-m2-p9_q003",
+    "citation": "cgst_act_2017.section.31",
+    "sentence": "(iii) **Continuous supply of services (due date not ascertainable):** In the case of continuous supply of services where the due date of payment is not ascertainable from the contract and no advance has been received, the invoice must be issued before or at the time when the supplier of the service "
+   },
+   {
+    "id": "88890bos-aps2102-m2-p11_q002",
+    "citation": "cgst_act_2017.section.7",
+    "sentence": "This amount is paid to the Central Government [The Integrated Goods and Services Tax Act, 2017, Section 7].\n\n**3."
+   },
+   {
+    "id": "88890bos-aps2102-m2-p11_q002",
+    "citation": "cgst_rules_2017.rule.88a",
+    "sentence": "Per the order of utilization, IGST credit must first be used for IGST, then for CGST/SGST [The Central Goods and Services Tax Rules, 2017, Rule 88A]."
+   },
+   {
+    "id": "88890bos-aps2102-m2-p11_q003",
+    "citation": "cgst_act_2017.section.49",
+    "sentence": "There is no provision in the provided text that allows the use of input tax credit for the payment of interest, penalty, or fees; these must be discharged using the electronic cash ledger as per Section 49(3)."
+   },
+   {
+    "id": "88890bos-aps2102-m2-p11_q009",
+    "citation": "igst_act_2017.section.7",
+    "sentence": "Supply of computer stationery to PSU in Mumbai:**\nSince the supplier is in Rajasthan and the recipient is in Maharashtra, this is an inter-State supply [Section 7(1), IGST Act]."
+   },
+   {
+    "id": "88891bos-aps2102-m2-p12_q008",
+    "citation": "cgst_act_2017.section.22",
+    "sentence": "Ltd.'s turnover of \u20b918 lakh is below the \u20b920 lakh threshold, they are not liable for registration under section 22(1)."
+   }
+  ]
+ }
+]

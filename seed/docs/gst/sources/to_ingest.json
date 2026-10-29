@@ -1,0 +1,129 @@
+[
+ {
+  "instrument_id": "notification_52_2018_ct",
+  "kind": "notification",
+  "number": "Notification No. 52/2018-Central Tax",
+  "cited_in": [
+   "88891bos-aps2102-m2-p12_q001",
+   "88891bos-aps2102-m2-p12_q002"
+  ],
+  "evidence": [
+   "llm_precheck"
+  ],
+  "citations_seen": [
+   "Notification No. 52/2018-Central Tax"
+  ],
+  "url": ""
+ },
+ {
+  "instrument_id": "notification_11_2017_ct_rate",
+  "kind": "notification",
+  "number": "Notification No. 11/2017-Central Tax (Rate)",
+  "cited_in": [
+   "87622bos-aps2102-p5u4_q011"
+  ],
+  "evidence": [
+   "llm_precheck"
+  ],
+  "citations_seen": [
+   "Notification No. 11/2017-CT (Rate)"
+  ],
+  "url": ""
+ },
+ {
+  "instrument_id": "notification_41_2017_it_rate",
+  "kind": "notification",
+  "number": "Notification No. 41/2017-Integrated Tax (Rate)",
+  "cited_in": [
+   "88886bos-aps2102-m2-p7_q019"
+  ],
+  "evidence": [
+   "answer_text",
+   "golden_annotation"
+  ],
+  "citations_seen": [
+   "Notification No. 41/2017"
+  ],
+  "url": ""
+ },
+ {
+  "instrument_id": null,
+  "kind": "other",
+  "number": "CBIC E-Way Bill FAQs",
+  "cited_in": [
+   "88889bos-aps2102-m2-p10_q006",
+   "88889bos-aps2102-m2-p10_q007"
+  ],
+  "evidence": [
+   "golden_annotation",
+   "llm_precheck"
+  ],
+  "citations_seen": [
+   "CBIC E-Way Bill FAQs"
+  ],
+  "url": ""
+ },
+ {
+  "instrument_id": null,
+  "kind": "other",
+  "number": "Indian Institutes of Management Act, 2017",
+  "cited_in": [
+   "87622bos-aps2102-p5u4_q004",
+   "87622bos-aps2102-p5u4_q007"
+  ],
+  "evidence": [
+   "golden_annotation",
+   "llm_precheck"
+  ],
+  "citations_seen": [
+   "Indian Institutes of Management Act, 2017"
+  ],
+  "url": ""
+ },
+ {
+  "instrument_id": null,
+  "kind": "other",
+  "number": "CBIC FAQs on TCS under GST (multiple e-commerce operator model)",
+  "cited_in": [
+   "88891bos-aps2102-m2-p12_q007"
+  ],
+  "evidence": [
+   "llm_precheck"
+  ],
+  "citations_seen": [
+   "CBIC FAQs on TCS under GST (multiple e-commerce operator model)"
+  ],
+  "url": ""
+ },
+ {
+  "instrument_id": null,
+  "kind": "other",
+  "number": "Income-tax Act, 1961, section 92A",
+  "cited_in": [
+   "87623bos-aps2102-p5u5_q007"
+  ],
+  "evidence": [
+   "golden_annotation",
+   "llm_precheck"
+  ],
+  "citations_seen": [
+   "Income-tax Act, 1961, section 92A"
+  ],
+  "url": ""
+ },
+ {
+  "instrument_id": null,
+  "kind": "other",
+  "number": "Section 47 of the respective SGST Act / UTGST Act (parallel late fee)",
+  "cited_in": [
+   "88892bos-aps2102-m2-p13_q006"
+  ],
+  "evidence": [
+   "llm_precheck"
+  ],
+  "citations_seen": [
+   "Section 47 of the respective SGST Act / UTGST Act (parallel late fee)"
+  ],
+  "url": ""
+ }
+]
