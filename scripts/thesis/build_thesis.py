@@ -11,6 +11,9 @@ template, so its styles, cover, Mendeley citations, bibliography and lists of fi
         --out docs/thesis/GST_RAG_Thesis_reference_draft.docx --cover-note "REFERENCE DRAFT (AI-assisted) - not for submission"
         (one command line)
 
+After writing, the fields (TOC, lists of figures and tables, figure/table numbers) are updated in Word itself via
+scripts/thesis/update_word_fields.py (Windows, Word installed, the file closed); --no-fields skips that step.
+
 Text may refer to figures and tables as {fig:<id>} / {tab:<id>}; they are replaced by "Figure c.n" / "Table c.n" (numbered
 within each chapter or appendix; figures by their id in figures.json, tables by `id=<id>` on a RESULTS line or
 `CAPTION Table <id>: ...`).
@@ -539,8 +542,14 @@ def main() -> None:
     ap.add_argument("--out", type=Path, default=OUT)
     ap.add_argument("--outline", type=Path, default=OUTLINE)
     ap.add_argument("--cover-note")
+    ap.add_argument("--no-fields", action="store_true",
+                    help="skip updating the fields in Word (TOC, lists, numbers stay stale until Word updates them)")
     a = ap.parse_args()
     build(a.out, a.outline, a.cover_note)
+    if not a.no_fields:
+        from scripts.thesis.update_word_fields import update
+
+        update([a.out])
 
 
 if __name__ == "__main__":
