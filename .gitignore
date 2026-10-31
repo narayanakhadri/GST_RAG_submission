@@ -85,3 +85,6 @@ eval/results/thesis/cache/embeddings.jsonl
 eval/results/thesis/models/
 eval/results/thesis/cache/colbert/
 
+
+# demo app full-page screenshots (scripts/thesis/demo_screenshots.py); the cropped figures are tracked
+eval/results/thesis/figures/demo/raw/

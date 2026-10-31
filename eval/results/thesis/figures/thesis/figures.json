@@ -166,5 +166,29 @@
   "file": "eval\\results\\thesis\\figures\\thesis\\amount_match.png",
   "caption": "Deterministic final-amount check, overall and split by the expert's verdict",
   "chapter": "5"
+ },
+ {
+  "id": "demo_overview",
+  "file": "eval\\results\\thesis\\figures\\demo\\demo_overview.png",
+  "chapter": "4",
+  "caption": "Demo interface of the final system (scripts/thesis/demo_app.py): question, scores, system answer beside the gold answer"
+ },
+ {
+  "id": "demo_worked_example",
+  "file": "eval\\results\\thesis\\figures\\demo\\demo_worked_example.png",
+  "chapter": "E",
+  "caption": "Worked example (question 1): the final 8 provisions with T31 grades, the required law found, and the live pipeline steps"
+ },
+ {
+  "id": "demo_failure",
+  "file": "eval\\results\\thesis\\figures\\demo\\demo_failure.png",
+  "chapter": "E",
+  "caption": "A retrieval failure: composition levy (Heeralal and Sons), against the closed-book answer"
+ },
+ {
+  "id": "demo_rag_helped",
+  "file": "eval\\results\\thesis\\figures\\demo\\demo_rag_helped.png",
+  "chapter": "E",
+  "caption": "Retrieval helps: food supplied by a hospital (Vedanta Hospital), against the closed-book answer"
  }
 ]

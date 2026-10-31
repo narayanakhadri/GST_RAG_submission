@@ -75,6 +75,19 @@ make api                     # FastAPI on :8000, interactive docs at /docs
 make streamlit               # UI on :8501 (login, query with per-feature presets, eval dashboard)
 ```
 
+## Demo
+
+```bash
+uv run streamlit run scripts/thesis/demo_app.py
+```
+
+One golden question at a time: the final system's answer beside the gold answer, required-law recall/MRR, the RAGAS
+scores of the reported run, the 8 provisions used (required ones marked) and the closed-book answer. Stored results
+need no services. "Run live" re-runs every step (sub-queries, 20-candidate pool with T31 grades, final 8, answer) and
+needs Qdrant with the `gst_thesis_enriched_large` collection (`uv run python -m scripts.thesis.build_collections --only
+gst_thesis_enriched_large`, text-embedding-3-large). Live answers are not judged. The thesis screenshots (Figure 4.13,
+Appendix E) come from `scripts/thesis/demo_screenshots.py`.
+
 ## Keeping the law current
 
 The corpus holds the law the thesis was evaluated on (bare law as of April 2026; notifications and circulars issued
@@ -120,7 +133,7 @@ Notes:
   are not included; they are regenerated.
 - Scripts for the subject-matter-expert review and thesis-document assembly (`scripts/thesis/sme_*`,
   `apply_sme_review.py`, `golden_audit.py`, `codex_gold_rescore.py`, `evidence_quotes.py`, `rag_value_check.py`,
-  `amount_match.py`, `build_thesis.py`, `build_report_v8.py`, `references_key.py`, `update_word_fields.py`,
+  `amount_match.py`, `build_thesis.py`, `build_report_v8.py`, `references_key.py`, `update_word_fields.py`, `demo_screenshots.py`,
   `scripts/gst_pipeline/make_review_sheet.py`) need
   review workspaces and drafts that are not part of this submission. Their outputs that the results depend on
   are included (`golden_set_sme_v1.jsonl`, `eval/results/thesis/sme_v1/`).

@@ -170,7 +170,9 @@ class Builder:
         p = self.doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
         p.paragraph_format.keep_with_next = True
-        p.add_run().add_picture(path, width=Cm(15))
+        pic = p.add_run().add_picture(path, width=Cm(15))
+        if pic.height > Cm(21):  # leave room for the caption on the page (A4, 2.5 cm top and bottom margins)
+            pic.width, pic.height = int(pic.width * Cm(21) / pic.height), Cm(21)
         return self._detach(p._p)
 
     def table(self, lines: list[str]):

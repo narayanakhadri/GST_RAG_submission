@@ -423,6 +423,23 @@ def data_figures(corpus: list[dict], golden: list[dict], qsets: dict) -> None:
     save(fig, "question_sources", "Evaluation questions by ICAI study-material unit", "4")
 
 
+# --- demo app screenshots (chapter 4, appendix E) ---------------------------------------------------------------
+def demo_figures() -> None:
+    """Screenshots taken by scripts/thesis/demo_screenshots.py; registered only, not drawn here."""
+    for f, chapter, caption in (
+        ("demo_overview", "4", "Demo interface of the final system (scripts/thesis/demo_app.py): question, scores, "
+                               "system answer beside the gold answer"),
+        ("demo_worked_example", "E", "Worked example (question 1): the final 8 provisions with T31 grades, the required "
+                                     "law found, and the live pipeline steps"),
+        ("demo_failure", "E", "A retrieval failure: composition levy (Heeralal and Sons), against the closed-book answer"),
+        ("demo_rag_helped", "E", "Retrieval helps: food supplied by a hospital (Vedanta Hospital), against the "
+                                 "closed-book answer"),
+    ):
+        src = Path("eval/results/thesis/figures/demo") / f"{f}.png"
+        if src.exists():
+            made.append({"id": f, "file": str(src), "chapter": chapter, "caption": caption})
+
+
 # --- results (chapter 5) ----------------------------------------------------------------------------------------
 def results_figures(golden: list[dict]) -> None:
     for f in ("retrieval_ablation", "doc_type_share"):
@@ -657,6 +674,7 @@ def main() -> None:
     diagrams()
     data_figures(corpus, golden, qsets)
     results_figures(golden)
+    demo_figures()
     data_tables(corpus, golden)
     (OUT / "figures.json").write_text(json.dumps(made, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"{len(made)} figures → {OUT}")
