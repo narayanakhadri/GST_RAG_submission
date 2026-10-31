@@ -58,7 +58,8 @@ LONG_PARAGRAPH_WORDS = 600
 _CLAUSE = re.compile(r"^(?:-\s*)?\[?\(([a-z]{1,4})\)\s?\S")
 CLAUSE_GROUP_WORDS = 400
 # "12", "9A", "(3)", and "[3A" — consolidated copies open inserted entries with an amendment bracket.
-_SERIAL = re.compile(r"^\[?\s*\(?(\d{1,3}\s*[A-Z]{0,2})\)?\.?\]?$", re.IGNORECASE)
+# an opening quote mark: amending notifications quote the rows they insert ("'36B")
+_SERIAL = re.compile(r"^['‘’\"“]?\[?\s*\(?(\d{1,3}\s*[A-Z]{0,2})\)?\.?\]?$", re.IGNORECASE)
 _COLUMN_NUMBERS = re.compile(r"^\(?\d{1,2}\)?$")
 _DESCRIPTION_HEADERS = ("description", "category", "issue", "nature", "supply", "particulars")
 

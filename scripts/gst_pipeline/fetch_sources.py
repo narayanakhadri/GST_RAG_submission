@@ -297,6 +297,13 @@ SOURCES: list[dict[str, str]] = [
 ]
 
 
+# Sources added later with add_source.py (seed/docs/gst/sources/extra_sources.json), same fields as above.
+_EXTRA = SOURCES_DIR / "extra_sources.json"
+if _EXTRA.exists():
+    SOURCES += [s for s in json.loads(_EXTRA.read_text(encoding="utf-8"))
+                if s["instrument_id"] not in {x["instrument_id"] for x in SOURCES}]
+
+
 def download(url: str) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=120) as r:

@@ -178,3 +178,50 @@ def test_long_definition_paragraph_splits_at_clause_sequence():
     parts = split_long_segment({"number": "2", "lines": lines})
     assert [p["number"] for p in parts] == ["2(a-c)", "2(d-f)"]
     assert any(line.startswith("(ii)") for line in parts[0]["lines"])
+
+
+AMENDMENT = """
+## Notification
+
+No. 06/2025- Central Tax (Rate)
+
+G.S.R. -----(E). - In exercise of the powers conferred by section 11, the Central Government hereby makes the
+following amendment further to amend the notification number 12/2017-Central Tax (Rate), namely:-
+
+(i) In the said notification, in the table, after serial number 36A, the following shall be inserted, namely: -
+
+| (1)   | (2)          | (3)                                                              |
+|-------|--------------|------------------------------------------------------------------|
+| '36B  | Heading 9971 | Services of insurance provided by the Motor Vehicle Accident Fund. |
+"""
+
+
+def test_quoted_row_of_an_amending_notification_becomes_an_entry():
+    src = {"instrument_id": "notification_06_2025_ct_rate", "kind": "notification",
+           "number": "06/2025-Central Tax (Rate)", "date": "2025-01-16", "subject": "Amends 12/2017",
+           "url": "https://example.invalid/ctr06-2025.pdf"}
+    ids = {r["id"]: r for r in build_records(src, AMENDMENT)}
+    entry = ids["notification_06_2025_ct_rate.entry.36b"]
+    assert "Motor Vehicle Accident Fund" in entry["raw_text"]
+    assert "notification_06_2025_ct_rate.paragraph.1" in ids
+
+
+def test_add_source_registers_once_and_replaces_records(tmp_path):
+    import json
+
+    from scripts.gst_pipeline.add_source import register, write_corpus
+
+    reg = tmp_path / "extra_sources.json"
+    register({"instrument_id": "a", "number": "1"}, reg)
+    register({"instrument_id": "a", "number": "2"}, reg)
+    assert json.loads(reg.read_text(encoding="utf-8")) == [{"instrument_id": "a", "number": "2"}]
+
+    def rec(rid, text):
+        return {"id": rid, "instrument_id": rid.split(".")[0], "instrument_title": "Notification No. X",
+                "provision_type": "entry", "provision_number": rid.rsplit(".", 1)[1], "raw_text": text,
+                "source_hash": text, "provision_title": text}
+
+    corpus = tmp_path / "corpus.jsonl"
+    write_corpus([rec("n_1.entry.1", "old")], corpus, None)
+    merged = write_corpus([rec("n_1.entry.1", "new"), rec("n_1.entry.2", "two")], corpus, None)
+    assert [r["raw_text"] for r in merged] == ["new", "two"]

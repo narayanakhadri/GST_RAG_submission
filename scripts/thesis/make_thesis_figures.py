@@ -138,7 +138,7 @@ def diagrams() -> None:
     flow("system_architecture", "System architecture: request flow through the FastAPI service", "4", [
         ("Client", "Streamlit UI / REST\n(JWT login)"),
         ("Security layers", "rate limit, token budget,\ninjection scan, PII redaction"),
-        ("LangGraph", "route_intent → retrieve_rag\n→ generate_answer → finalize"),
+        ("LangGraph", "generate_answer → finalize\n(Postgres checkpointer)"),
         ("Retrieval", "Qdrant dense + TF-IDF sparse\nRRF, re-rank, caps"),
         ("Generation", "Gemini 3.1 flash-lite\ngrounded prompt, citations"),
         ("Output checks", "moderation, PII redaction\n→ answer + sources"),
@@ -150,7 +150,9 @@ def diagrams() -> None:
         ("enrich.py", "LLM metadata +\nretrieval_text_enriched"),
         ("build_corpus.py", "validate IDs, labels\n→ 881-record JSONL"),
         ("seed_gst.py", "embed (OpenAI) →\nQdrant, 866 points"),
-    ], cols=3, size=(11, 3.8))
+        ("add_source.py", "new notification/circular:\nfetch → parse → enrich → upsert"),
+    ], cols=4, size=(11, 3.8), arrows=[(0, 1), (1, 2), (2, 3), (3, 4), (4, 5), (6, 5)])
+    technique_map()
     flow("final_pipeline", "Final retrieval and answer pipeline (E17 + T31)", "4", [
         ("Question", "long exam scenario\n(median 112 words)"),
         ("Decomposition", "LLM writes one sub-query\nper legal issue"),
@@ -160,6 +162,162 @@ def diagrams() -> None:
         ("Top 8, cap 3", "max 3 notification/\ncircular entries"),
         ("Grounded answer", "law + summary context,\ncite every provision"),
     ], cols=4, size=(11, 4.2))
+
+
+# Every technique and paper tried, by pipeline layer (docs/techniques_catalog.md): (label, outcome).
+OUTCOMES = {
+    "final": ("In the final system", "#2e7d32", "white"),
+    "eval": ("Used for evaluation", "#3b6ea8", "white"),
+    "helped": ("Helped, not adopted", "#c5e1a5", "black"),
+    "nogain": ("No gain / mixed", "#d9d9d9", "black"),
+    "hurt": ("Hurt", "#e57373", "black"),
+    "built": ("Built, not fully evaluated", "white", "black"),
+}
+TECHNIQUE_MAP: list[tuple[str, list[tuple[str, str]]]] = [
+    ("Corpus &\nchunking", [
+        ("Provision units + hierarchy prefix (contextual chunk headers, Anthropic 2024)", "final"),
+        ("LLM metadata enrichment", "final"),
+        ("Sub-section chunking: SAC, HiChunk, LawRAG (T01)", "built"),
+        ("Late chunking, Jina (T08)", "built"),
+        ("Version notes, VersionRAG (T02)", "built"),
+        ("Corrected LLM summaries (E13a)", "nogain"),
+        ("Extra sources + CBIC FAQs (v4)", "nogain"),
+    ]),
+    ("Embedding", [
+        ("Enriched text: raw → heading → metadata", "final"),
+        ("text-embedding-3-small → 3-large", "final"),
+        ("doc2query, Nogueira 2019 (E13b)", "built"),
+        ("Open embedders GTE / BGE / E5 (T15)", "built"),
+        ("Fine-tuned embedder, LQ-RAG (T16)", "built"),
+    ]),
+    ("Query\nunderstanding", [
+        ("Decomposition into sub-queries, RAG-Fusion", "final"),
+        ("HyDE, Gao 2022", "helped"),
+        ("LLM query rewrite", "helped"),
+        ("HyDE inside fusion, Query2doc (T32)", "nogain"),
+        ("Step-back prompting (W1c)", "nogain"),
+        ("Legal-concept expansion, Nguyen 2024 (T30)", "nogain"),
+        ("Routing to document families (T13)", "nogain"),
+    ]),
+    ("Retrieval &\nfusion", [
+        ("Hybrid dense + TF-IDF, RRF (Cormack 2009)", "final"),
+        ("Top-8 + cap 3 notifications/circulars", "final"),
+        ("BM25 / SPLADE / BM42 / miniCOIL (W1f)", "helped"),
+        ("Cited-provision lookup (W1a)", "helped"),
+        ("CombSUM / CombMNZ / Borda, Fox & Shaw 1994 (T33)", "nogain"),
+        ("Weighted RRF, Blended RAG (W1d)", "nogain"),
+        ("Adaptive top-k, HyPA-RAG (W1b)", "nogain"),
+        ("Cross-reference graph expansion", "nogain"),
+        ("Personalized PageRank, HippoRAG (T22)", "nogain"),
+        ("Second retrieval, IRCoT / FLARE (T12)", "nogain"),
+        ("Definition injection, CRAwLeR (T29)", "nogain"),
+        ("Summary-first retrieval, RAPTOR (T17)", "nogain"),
+        ("FAQ question channel (T14)", "nogain"),
+        ("MMR diversity, Vendi-RAG (W1e)", "hurt"),
+        ("GraphRAG communities (T27)", "hurt"),
+        ("Neo4j knowledge graph (T03)", "built"),
+    ]),
+    ("Re-ranking", [
+        ("LLM pointwise re-rank with reasoning: Rank1, Rank-R1, ReasonRank (T31)", "final"),
+        ("LLM listwise re-rank, RankGPT", "helped"),
+        ("Learning-to-rank, Gokhan & Briscoe 2025 (T09)", "nogain"),
+        ("ColBERTv2 late interaction (T19)", "nogain"),
+        ("MiniLM cross-encoder", "hurt"),
+    ]),
+    ("Corrective &\nagentic", [
+        ("Missing-law check: Plan-and-Solve, Self-Ask (T34)", "helped"),
+        ("LLM scope classifier (T21)", "helped"),
+        ("Abstention by retrieval score (W1g)", "nogain"),
+        ("Agent: ReAct, Search-R1, L-MARS (T10)", "hurt"),
+        ("CRAG, Yan 2024", "built"),
+        ("Self-RAG, Asai 2024", "built"),
+        ("Self-Route / LongRAG (T23, T18)", "built"),
+    ]),
+    ("Generation", [
+        ("Grounded citation prompt (E11)", "final"),
+        ("Law + summary context (E12b)", "final"),
+        ("Graph relations in the prompt, HyPA-RAG (T04)", "nogain"),
+        ("Law-only context (E12)", "hurt"),
+        ("Lost-in-the-middle order, Liu 2023 (T05)", "built"),
+        ("Compression: LLMLingua, RECOMP (T06)", "built"),
+        ("Chain-of-Note / IRAC (T07)", "built"),
+        ("Speculative RAG, Wang 2024 (T24)", "built"),
+        ("Chain-of-Verification, Dhuliawala 2023 (T25)", "built"),
+        ("Sub-question answering (T26)", "built"),
+        ("Model ensemble + selector (T28)", "built"),
+    ]),
+    ("Evaluation", [
+        ("Required-law recall + MRR vs gold law", "eval"),
+        ("RAGAS, Es 2024", "eval"),
+        ("LLM-as-judge, Zheng 2023 (Qwen)", "eval"),
+        ("Answer correctness, G-Eval (T20)", "eval"),
+        ("Citation audit, COLIEE NLI (T11)", "eval"),
+        ("Bootstrap CI + Wilcoxon", "eval"),
+        ("Closed-book control", "eval"),
+        ("Expert (SME) review", "eval"),
+        ("Final-amount check", "eval"),
+    ]),
+]
+
+
+def technique_map() -> None:
+    """Layered block diagram: one band per pipeline layer, one chip per technique/paper coloured by outcome.
+    Also writes the same map as Mermaid (technique_map.mmd) for editing in other tools."""
+    W, label_w, pad, chip_h, gap = 11.0, 1.35, 0.08, 0.30, 0.07
+    char_w = 0.058  # inches per character at fontsize 7.2
+
+    def chip_w(text: str) -> float:
+        return min(len(text) * char_w + 0.18, W - label_w - 2 * pad)
+
+    bands, y = [], 0.0  # (layer, y_top, height, [(x, y, w, text, outcome)])
+    for layer, items in TECHNIQUE_MAP:
+        chips, x, row = [], label_w + pad, 0
+        for text, outcome in items:
+            w = chip_w(text)
+            if x + w > W - pad:
+                row, x = row + 1, label_w + pad
+            chips.append((x, y + pad + row * (chip_h + gap), w, text, outcome))
+            x += w + gap
+        h = 2 * pad + (row + 1) * chip_h + row * gap
+        bands.append((layer, y, h, chips))
+        y += h + 0.22
+    H = y + 0.45
+
+    fig, ax = plt.subplots(figsize=(W, H))
+    ax.set_xlim(0, W)
+    ax.set_ylim(H, 0)
+    ax.set_axis_off()
+    for i, (layer, top, h, chips) in enumerate(bands):
+        ax.add_patch(FancyBboxPatch((0.02, top), W - 0.04, h, boxstyle="round,pad=0,rounding_size=0.06",
+                                    fc="#f4f6fa", ec="#9aa9bd", lw=0.8))
+        ax.text(0.12, top + h / 2, layer, ha="left", va="center", weight="bold", fontsize=9)
+        for x, cy, w, text, outcome in chips:
+            _, fc, tc = OUTCOMES[outcome]
+            ax.add_patch(FancyBboxPatch((x, cy), w, chip_h, boxstyle="round,pad=0,rounding_size=0.05", fc=fc,
+                                        ec="#555" if outcome == "built" else fc, lw=0.8,
+                                        ls="--" if outcome == "built" else "-"))
+            ax.text(x + w / 2, cy + chip_h / 2, text, ha="center", va="center", fontsize=7.2, color=tc)
+        if i < len(bands) - 1:
+            ax.annotate("", (0.6, bands[i + 1][1] - 0.01), (0.6, top + h + 0.01),
+                        arrowprops={"arrowstyle": "-|>", "color": "#555", "lw": 1.1})
+    for j, (name, fc, _) in enumerate(OUTCOMES.values()):
+        lx = 0.1 + j * (W - 0.2) / len(OUTCOMES)
+        ax.add_patch(FancyBboxPatch((lx, H - 0.33), 0.28, 0.2, boxstyle="round,pad=0,rounding_size=0.04", fc=fc,
+                                    ec="#555", lw=0.8, ls="--" if fc == "white" else "-"))
+        ax.text(lx + 0.35, H - 0.23, name, va="center", fontsize=8)
+    save(fig, "technique_map", "Techniques and papers tried, by pipeline layer and outcome", "2")
+
+    lines = ["flowchart TB"]
+    for k, (_name, fc, tc) in OUTCOMES.items():
+        dash = ",stroke-dasharray: 4 3" if k == "built" else ""
+        lines.append(f"  classDef {k} fill:{fc},color:{tc},stroke:#555{dash}")
+    for i, (layer, items) in enumerate(TECHNIQUE_MAP):
+        lines.append(f'  subgraph L{i}["{layer.replace(chr(10), " ")}"]')
+        for j, (text, outcome) in enumerate(items):
+            lines.append(f'    L{i}_{j}["{text}"]:::{outcome}')
+        lines.append("  end")
+    lines += [f"  L{i} --> L{i + 1}" for i in range(len(TECHNIQUE_MAP) - 1)]
+    (OUT / "technique_map.mmd").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 # --- data (chapter 4) -------------------------------------------------------------------------------------------

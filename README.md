@@ -75,6 +75,25 @@ make api                     # FastAPI on :8000, interactive docs at /docs
 make streamlit               # UI on :8501 (login, query with per-feature presets, eval dashboard)
 ```
 
+## Keeping the law current
+
+The corpus holds the law the thesis was evaluated on (bare law as of April 2026; notifications and circulars issued
+2017–2022). A new notification or circular is added with one command, without rebuilding the corpus:
+
+```bash
+make gst-add-source ARGS='--instrument-id notification_06_2025_ct_rate --kind notification \
+  --number "06/2025-Central Tax (Rate)" --date 2025-01-16 --subject "Amends 12/2017-CT(Rate)" \
+  --url https://gstcouncil.gov.in/sites/default/files/2025-01/ctr06-2025.pdf'
+```
+
+`scripts/gst_pipeline/add_source.py` registers the source (so a full rebuild keeps it), converts the PDF with
+Docling, splits it into paragraph/entry records, enriches only the new records (Groq; `--no-enrich` embeds the plain
+text for free), and upserts only their points into Qdrant. Point IDs are deterministic, so reruns add nothing new, and
+the sparse index is rebuilt from Qdrant on each query, so the new law is searchable at once. Use `--pdf FILE` for a
+PDF downloaded by hand (CBIC's site needs a browser; GST 2.0 rate notification 9/2025-CT(Rate) is not on the GST
+Council listing), and `--corpus/--collection/--init-from/--no-register` to try a source on a copy first. Finding new
+instruments is still a manual step.
+
 ## Reproducing the results
 
 ```bash
@@ -101,6 +120,7 @@ Notes:
   are not included; they are regenerated.
 - Scripts for the subject-matter-expert review and thesis-document assembly (`scripts/thesis/sme_*`,
   `apply_sme_review.py`, `golden_audit.py`, `codex_gold_rescore.py`, `evidence_quotes.py`, `rag_value_check.py`,
-  `amount_match.py`, `build_thesis.py`, `build_report_v8.py`, `scripts/gst_pipeline/make_review_sheet.py`) need
+  `amount_match.py`, `build_thesis.py`, `build_report_v8.py`, `references_key.py`, `update_word_fields.py`,
+  `scripts/gst_pipeline/make_review_sheet.py`) need
   review workspaces and drafts that are not part of this submission. Their outputs that the results depend on
   are included (`golden_set_sme_v1.jsonl`, `eval/results/thesis/sme_v1/`).

@@ -1,4 +1,4 @@
-.PHONY: help install sync seed seed-gst gst-fetch-sources gst-build-corpus gst-update-golden gst-smoke-test eval-gst final-system report api streamlit test lint format
+.PHONY: gst-add-source help install sync seed seed-gst gst-fetch-sources gst-build-corpus gst-update-golden gst-smoke-test eval-gst final-system report api streamlit test lint format
 
 
 help:
@@ -44,6 +44,9 @@ gst-build-corpus:
 
 gst-update-golden:
 	uv run python -m scripts.gst_pipeline.update_golden_sources --write
+
+gst-add-source:  # make gst-add-source ARGS='--instrument-id ... --url ...' (see add_source.py)
+	uv run python -m scripts.gst_pipeline.add_source $(ARGS)
 
 gst-smoke-test:
 	uv run python scripts/gst_smoke_test.py

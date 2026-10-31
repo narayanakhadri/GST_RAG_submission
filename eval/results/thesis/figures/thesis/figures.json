@@ -30,6 +30,12 @@
   "chapter": "4"
  },
  {
+  "id": "technique_map",
+  "file": "eval\\results\\thesis\\figures\\thesis\\technique_map.png",
+  "caption": "Techniques and papers tried, by pipeline layer and outcome",
+  "chapter": "2"
+ },
+ {
   "id": "final_pipeline",
   "file": "eval\\results\\thesis\\figures\\thesis\\final_pipeline.png",
   "caption": "Final retrieval and answer pipeline (E17 + T31)",
